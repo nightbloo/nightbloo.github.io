@@ -26,15 +26,15 @@
     "user": null
   },
   "images": {
-    "background": null,
-    "playback": null,
+    "background": "https://nightbloo.github.io/background/nb3DJ5.png",
+    "playback": "https://nightbloo.github.io/background/nb3DJvideo.png",
     "admin": null,
     "ambassador": null,
     "host": "https://nightbloo.github.io/icons/hostpink.png",
     "cohost": "https://nightbloo.github.io/icons/hostrose.png",
     "manager": "https://nightbloo.github.io/icons/manager.png",
     "bouncer": "https://nightbloo.github.io/icons/bouncer.png",
-    "rdj": "https://static-cdn.jtvnw.net/jtv_user_pictures/badges/954/18x18.png",
+    "rdj": "https://static-cdn.jtvnw.net/jtv_user_pictures/badges/9598/18x18.png",
     "subscriber": null
   },
   "emotes": {
