@@ -16,11 +16,11 @@
   "ccc": {
     "admin": null,
     "ambassador": null,
-    "host": null,
-    "cohost": null,
-    "manager": null,
-    "bouncer": null,
-    "rdj": null,
+    "host": "##FF38CB",
+    "cohost": "#FF007F",
+    "manager": "#3083FF",
+    "bouncer": "#3083FF",
+    "rdj": "#33CCFF",
     "subscriber": null,
     "friend": null,
     "user": null
@@ -30,14 +30,17 @@
     "playback": null,
     "admin": null,
     "ambassador": null,
-    "host": null,
-    "cohost": null,
-    "manager": null,
+    "host": "https://nightbloo.github.io/icons/hostpink.png",
+    "cohost": "https://nightbloo.github.io/icons/hostrose.png",
+    "manager": "https://nightbloo.github.io/icons/manager.png",
     "bouncer": null,
-    "rdj": null,
+    "rdj": "https://static-cdn.jtvnw.net/jtv_user_pictures/badges/954/18x18.png",
     "subscriber": null
   },
   "emotes": {
-    "emote_name": null
+    "rosiedance": "https://nightbloo.github.io/custom-emotes/rosieDance.gif",
+	"rosiewave": "https://nightbloo.github.io/custom-emotes/rosieWave.gif",
+	"pepepls": "https://nightbloo.github.io/custom-emotes/PepePls.gif",
+	"lolidance": "ttps://nightbloo.github.io/custom-emotes/loliDance.gif"
   }
 }
