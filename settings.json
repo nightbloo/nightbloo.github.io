@@ -1,0 +1,43 @@
+{
+  "room": "NB3's Community",
+  "author": "Stephen Hawking",
+  "icon": null,
+  "css": null,
+  "rules": {
+    "allowAutorespond": false,
+    "allowAutowoot": true,
+    "allowAutojoin": true,
+    "allowAutograb": true,
+    "allowSmartVote": true,
+    "allowEmotes": true,
+    "allowShowingMehs": false,
+    "forceSmartVote": false
+  },
+  "ccc": {
+    "admin": null,
+    "ambassador": null,
+    "host": null,
+    "cohost": null,
+    "manager": null,
+    "bouncer": null,
+    "rdj": null,
+    "subscriber": null,
+    "friend": null,
+    "user": null
+  },
+  "images": {
+    "background": null,
+    "playback": null,
+    "admin": null,
+    "ambassador": null,
+    "host": null,
+    "cohost": null,
+    "manager": null,
+    "bouncer": null,
+    "rdj": null,
+    "subscriber": null
+  },
+  "emotes": {
+    "emote_name": null
+  }
+}
