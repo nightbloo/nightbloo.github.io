@@ -2,7 +2,7 @@
   "room": "NB3's Community",
   "author": "Stephen Hawking",
   "icon": null,
-  "css": null,
+  "css": "https://nightbloo.github.io/main.css",
   "rules": {
     "allowAutorespond": false,
     "allowAutowoot": true,
