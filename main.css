@@ -1,66 +1,88 @@
+/* Custom Badges */
+/* Rose */
 .id-5713188 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/rosebouncy.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* Larry */
 .id-6425524 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/wolf.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* SaltyMelon */
 .id-6760917 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/melon.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* Zenopie */
 .id-5591063 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/zen.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* TEI_Staff */
 .id-3300589 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/tei.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* Snaky */
 .id-6288281 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/snaky.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* Dyroo */
 .id-5767704 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/Dyroo.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* Leaf */
 .id-4178820 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/leaf.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* Law */
 .id-5502961 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/law.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* Mynameisgary */
 .id-6487174 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/gary.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* Oxmores */
 .id-6555123 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/wolf.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+/* Custom Icons */
+/* Rose */
+.id-5713188 > .msg > .from > i.icon-chat-subscriber {
+    background: url("https://nightbloo.github.io/icons/subrose.png");
+}
+/* KevinsBot */
+.id-10073209 > .msg > .from > i.icon-chat-manager {
+    background: url("https://nightbloo.github.io/icons/bot.png") no-repeat;
 }
