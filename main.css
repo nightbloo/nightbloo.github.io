@@ -1,6 +1,12 @@
-.id-5713188>.badge-box>i.bdg {
-	background-image: url("https://nightbloo.github.io/custom-badges/rosebouncy.gif");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+.id-5713188 > .badge-box > i.bdg {
+    background-image: url("https://nightbloo.github.io/custom-badges/rosebouncy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.id-6425524 > .badge-box > i.bdg {
+    background-image: url("https://cdn.radiant.dj/rcs/emotes/img/wolf.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
