@@ -86,3 +86,9 @@
 .id-10073209 > .msg > .from > i.icon-chat-manager {
     background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
 }
+#user-lists .list.room .user.id-10073209 .icon-chat-manager {
+    background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
+}
+#waitlist .list .user.id-10073209 .name .icon-chat-manager {
+    background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
+}
