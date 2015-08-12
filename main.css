@@ -5,7 +5,19 @@
     background-position: center center;
 }
 .id-6425524 > .badge-box > i.bdg {
-    background-image: url("https://cdn.radiant.dj/rcs/emotes/img/wolf.gif");
+    background-image: url("https://nightbloo.github.io/custom-badges/wolf.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.id-6760917 > .badge-box > i.bdg {
+    background-image: url("https://nightbloo.github.io/custom-badges/melon.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.id-5591063 > .badge-box > i.bdg {
+    background-image: url("https://nightbloo.github.io/custom-badges/zen.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
