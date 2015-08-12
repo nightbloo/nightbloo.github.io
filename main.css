@@ -80,9 +80,9 @@
 /* Custom Icons */
 /* Rose */
 .id-5713188 > .msg > .from > i.icon-chat-subscriber {
-    background: url("https://nightbloo.github.io/icons/subrose.png");
+    background: url("https://nightbloo.github.io/icons/subrose.png") !important;
 }
 /* KevinsBot */
 .id-10073209 > .msg > .from > i.icon-chat-manager {
-    background: url("https://nightbloo.github.io/icons/bot.png") no-repeat;
+    background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
 }
