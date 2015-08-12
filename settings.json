@@ -1,4 +1,4 @@
-{
+ {
   "room": "NB3's Community",
   "author": "Stephen Hawking",
   "icon": null,
@@ -44,6 +44,8 @@
     "lolidance": "https://nightbloo.github.io/custom-emotes/loliDance.gif",
     "dyroo": "https://nightbloo.github.io/custom-emotes/dyroo.png",
     "dyroopants": "https://nightbloo.github.io/custom-emotes/dyroopants.png",
-    "dyrooshirt": "https://nightbloo.github.io/custom-emotes/dyrooshirt.png"
+    "dyrooshirt": "https://nightbloo.github.io/custom-emotes/dyrooshirt.png",
+    "domlove": "https://nightbloo.github.io/custom-emotes/domLove.png",
+	"domevil": "https://nightbloo.github.io/custom-emotes/domEvil.png"
   }
 }
