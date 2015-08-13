@@ -107,6 +107,28 @@
     background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
 }
 
+/* Grab, woot, meh buttons */
+#woot i.icon{
+    background-image: url("https://nightbloo.github.io/icons/woot.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#grab i.icon{
+    background-image: url("https://nightbloo.github.io/icons/grab.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#meh i.icon{
+    background-image: url("https://nightbloo.github.io/icons/meh.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* Extra non-important stuff */
 .id-5767704:hover span.un.clickable {
     transform: rotate3d(7,20,9,360deg);
