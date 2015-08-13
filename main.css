@@ -122,3 +122,21 @@
 .id-5767704 > .msg > .from > i.icon-chat-manager {
 	transition: all 1s linear;
 }
+/* The law giveth, the law taketh */
+.id-5502961:hover span.un.clickable {
+    transform: rotate3d(8,1,5,360deg);
+    margin-left: 5px;
+    text-shadow: 1px 1px 20px darkred, 0 0 80px orange, 0 0 40px red;
+    transition: text-shadow 0.5s 1.7s, transform 2s linear, margin-left 1.5s;
+}
+.id-5502961 span.un.clickable {
+    transition: all 1s linear;
+}
+.id-5502961:hover > .msg > .from > i.icon-chat-manager {
+    transform: rotateZ(-270deg);
+    margin-left: 5px;
+	transition: all 1s linear;
+}
+.id-5502961 > .msg > .from > i.icon-chat-manager {
+	transition: all 1s linear;
+}
