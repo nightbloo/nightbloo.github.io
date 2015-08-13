@@ -39,13 +39,14 @@
   },
   "emotes": {
     "rosiedance": "https://nightbloo.github.io/custom-emotes/rosieDance.gif",
-	"rosiewave": "https://nightbloo.github.io/custom-emotes/rosieWave.gif",
-	"pepepls": "https://nightbloo.github.io/custom-emotes/PepePls.gif",
+    "rosiewave": "https://nightbloo.github.io/custom-emotes/rosieWave.gif",
+    "pepepls": "https://nightbloo.github.io/custom-emotes/PepePls.gif",
     "lolidance": "https://nightbloo.github.io/custom-emotes/loliDance.gif",
     "dyroo": "https://nightbloo.github.io/custom-emotes/dyroo.png",
     "dyroopants": "https://nightbloo.github.io/custom-emotes/dyroopants.png",
     "dyrooshirt": "https://nightbloo.github.io/custom-emotes/dyrooshirt.png",
     "domlove": "https://nightbloo.github.io/custom-emotes/domLove.png",
-	"domevil": "https://nightbloo.github.io/custom-emotes/domEvil.png"
+	"domevil": "https://nightbloo.github.io/custom-emotes/domEvil.png",
+    "feelsbirthdayman": "https://nightbloo.github.io/custom-emotes/feelsbirthdayman.png"
   }
 }
