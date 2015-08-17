@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Larry */
 .id-6425524 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/wolf.gif");
@@ -13,6 +14,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* SaltyMelon */
 .id-6760917 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/melon.gif");
@@ -20,6 +22,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Zenopie */
 .id-5591063 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/zen.gif");
@@ -27,6 +30,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* TEI_Staff */
 .id-3300589 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/tei.jpg");
@@ -34,6 +38,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Snaky */
 .id-6288281 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/snaky.gif");
@@ -41,6 +46,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Dyroo */
 .id-5767704 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/Dyroo.gif");
@@ -48,6 +54,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Leaf */
 .id-4178820 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/leaf.gif");
@@ -55,6 +62,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Law */
 .id-5502961 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/law.gif");
@@ -62,6 +70,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Mynameisgary */
 .id-6487174 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/gary.gif");
@@ -69,6 +78,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Oxmores */
 .id-6555123 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/wolf.gif");
@@ -76,6 +86,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Pikachu */
 .id-6630381 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/pikachu.gif");
@@ -83,6 +94,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* DREKEN */
 .id-3632408 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/dreken.gif");
@@ -90,6 +102,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Rarkh */
 .id-6728157 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/rarkh.jpg");
@@ -103,33 +116,36 @@
 .id-5713188 > .msg > .from > i.icon-chat-subscriber {
     background: url("https://nightbloo.github.io/icons/subrose.png") !important;
 }
+
 /* KevinsBot */
 .id-10073209 > .msg > .from > i.icon-chat-manager {
     background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
 }
+
 #user-lists .list.room .user.id-10073209 .icon-chat-manager {
     background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
 }
+
 #waitlist .list .user.id-10073209 .name .icon-chat-manager {
     background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
 }
 
 /* Grab, woot, meh buttons */
-#woot i.icon{
+#woot i.icon {
     background-image: url("https://nightbloo.github.io/icons/woot.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#grab i.icon{
+#grab i.icon {
     background-image: url("https://nightbloo.github.io/icons/grab.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#meh i.icon{
+#meh i.icon {
     background-image: url("https://nightbloo.github.io/icons/meh.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,34 +154,41 @@
 
 /* Extra non-important stuff */
 .id-5767704:hover span.un.clickable {
-    transform: rotate3d(7,20,9,360deg);
+    transform: rotate3d(7, 20, 9, 360deg);
     transition: all 3s cubic-bezier(0.31, 0, 0.11, 1);
 }
+
 .id-5767704 span.un.clickable {
     transition: all 1s linear;
 }
+
 .id-5767704:hover > .msg > .from > i.icon-chat-manager {
     transform: rotateZ(180deg);
-	transition: all 1s linear;
+    transition: all 1s linear;
 }
+
 .id-5767704 > .msg > .from > i.icon-chat-manager {
-	transition: all 1s linear;
+    transition: all 1s linear;
 }
+
 /* The law giveth, the law taketh */
 .id-5502961:hover span.un.clickable {
-    transform: rotate3d(8,1,5,360deg);
+    transform: rotate3d(8, 1, 5, 360deg);
     margin-left: 5px;
     text-shadow: 1px 1px 20px darkred, 0 0 80px orange, 0 0 40px red;
     transition: text-shadow 0.5s 1.7s, transform 2s linear, margin-left 1.5s;
 }
+
 .id-5502961 span.un.clickable {
     transition: all 1s linear;
 }
+
 .id-5502961:hover > .msg > .from > i.icon-chat-manager {
     transform: rotateZ(-270deg);
     margin-left: 5px;
-	transition: all 1s linear;
+    transition: all 1s linear;
 }
+
 .id-5502961 > .msg > .from > i.icon-chat-manager {
-	transition: all 1s linear;
+    transition: all 1s linear;
 }
