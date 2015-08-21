@@ -15,6 +15,14 @@
     background-position: center center;
 }
 
+/* Le Toucan */
+.id-4193885 > .badge-box > i.bdg {
+    background-image: url("https://nightbloo.github.io/custom-badges/toucan.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* SaltyMelon */
 .id-6760917 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/melon.gif");
@@ -120,6 +128,11 @@
 /* Pikachu */
 .id-6630381 > .msg > .from > i.istranslator {
     background: url("https://nightbloo.github.io/icons/pika.png") no-repeat !important;
+}
+
+/* Le Toucan */
+.id-4193885 > .msg > .from > i.icon-chat-subscriber {
+    background: url("https://nightbloo.github.io/icons/toucan.png") no-repeat !important;
 }
 
 /* KevinsBot */
