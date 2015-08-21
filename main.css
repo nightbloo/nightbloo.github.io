@@ -117,6 +117,11 @@
     background: url("https://nightbloo.github.io/icons/subrose.png") !important;
 }
 
+/* Pikachu */
+.id-6630381 > .msg > .from > i.itranslator {
+    background: url("https://nightbloo.github.io/icons/pika.png") no-repeat !important;
+}
+
 /* KevinsBot */
 .id-10073209 > .msg > .from > i.icon-chat-manager {
     background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
