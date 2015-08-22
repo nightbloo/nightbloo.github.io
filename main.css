@@ -140,11 +140,6 @@
     background: url("https://nightbloo.github.io/icons/toucan.png") no-repeat !important;
 }
 
-/* SaltyMelon */
-.id-6760917 > .msg > .from > i.iother {
-    background: url("https://nightbloo.github.io/icons/lawhate.png") no-repeat !important;
-}
-
 /* KevinsBot */
 .id-10073209 > .msg > .from > i.icon-chat-manager {
     background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;
@@ -219,4 +214,113 @@
 
 .id-5502961 > .msg > .from > i.icon-chat-manager {
     transition: all 1s linear;
+}
+
+/* HerpDerp */
+
+.message.role-rdj,
+.emote.role-rdj
+{
+    border-left: #33CCFF 2px dotted;
+    border-right: #33CCFF 2px dotted;
+}
+
+.message.role-rdj:hover,
+.emote.role-rdj:hover
+{
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.message.role-manager,
+.emote.role-manager,
+.message.role-bouncer,
+.emote.role-bouncer
+{
+    border-left: #3083FF 2px dotted;
+    border-right: #3083FF 2px dotted;
+}
+
+.message.role-manager:hover,
+.emote.role-manager:hover,
+.message.role-bouncer:hover,
+.emote.role-bouncer:hover
+{
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.message.role-cohost,
+.emote.role-cohost
+{
+    border-left: #FF007F 2px dotted;
+    border-right: #FF007F 2px dotted;
+}
+
+.message.role-cohost:hover,
+.emote.role-cohost:hover,
+{
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.message.role-host.emote.role-host
+{
+    border-left: #FF007F 2px dotted;
+    border-right: #FF007F 2px dotted;
+}
+
+.message.role-host:hover,
+.emote.role-host:hover
+{
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.message.role-host > .msg > .text::selection,
+.emote.role-host > .msg > .text::selection,
+.message.role-host > .msg > .text::-moz-selection,
+.emote.role-host > .msg > .text::-moz-selection
+{
+    color: #FF007F;
+}
+
+.message.role-cohost > .msg > .text::selection,
+.emote.role-cohost > .msg > .text::selection,
+.message.role-cohost > .msg > .text::-moz-selection,
+.emote.role-cohost > .msg > .text::-moz-selection
+{
+    color: #FF007F;
+}
+
+.message.role-manager > .msg > .text::selection,
+.emote.role-manager > .msg > .text::selection,
+.message.role-manager > .msg > .text::-moz-selection,
+.emote.role-manager > .msg > .text::-moz-selection
+{
+    color: #3083FF;
+}
+
+.message.role-bouncer > .msg > .text::selection,
+.emote.role-bouncer > .msg > .text::selection,
+.message.role-bouncer > .msg > .text::-moz-selection,
+.emote.role-bouncer > .msg > .text::-moz-selection
+{
+    color: #3083FF;
+}
+
+.message.role-rdj > .msg > .text::selection,
+.emote.role-rdj > .msg > .text::selection,
+.message.role-rdj > .msg > .text::-moz-selection,
+.emote.role-rdj > .msg > .text::-moz-selection
+{
+    color: #33CCFF;
+}
+
+.message.role-user > .msg > .text::selection,
+.emote.role-user > .msg > .text::selection,
+.message.role-user > .msg > .text::-moz-selection,
+.emote.role-user > .msg > .text::-moz-selection
+{
+    color: #777f92;
 }
