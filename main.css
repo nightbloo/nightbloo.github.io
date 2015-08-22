@@ -140,6 +140,11 @@
     background: url("https://nightbloo.github.io/icons/toucan.png") no-repeat !important;
 }
 
+/* SaltyMelon */
+.id-6760917 > .msg > .from > i.icon-chat-other {
+    background: url("https://nightbloo.github.io/icons/lawhate.png") no-repeat !important;
+}
+
 /* KevinsBot */
 .id-10073209 > .msg > .from > i.icon-chat-manager {
     background: url("https://nightbloo.github.io/icons/bot.png") no-repeat !important;

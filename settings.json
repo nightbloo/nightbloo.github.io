@@ -35,7 +35,8 @@
     "manager": "https://nightbloo.github.io/icons/manager.png",
     "bouncer": "https://nightbloo.github.io/icons/bouncer.png",
     "rdj": "https://nightbloo.github.io/icons/rdj.png",
-    "subscriber": null
+    "subscriber": null,
+    "other": null
   },
   "emotes": {
     "rosiedance": "https://nightbloo.github.io/custom-emotes/rosieDance.gif",
