@@ -55,6 +55,14 @@
     background-position: center center;
 }
 
+/* Domadness */
+.id-6385488 > .badge-box > i.bdg {
+    background-image: url("https://nightbloo.github.io/custom-badges/Dom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* Dyroo */
 .id-5767704 > .badge-box > i.bdg {
     background-image: url("https://nightbloo.github.io/custom-badges/Dyroo.gif");
