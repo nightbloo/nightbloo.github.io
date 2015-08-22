@@ -134,6 +134,11 @@
     background: url("https://nightbloo.github.io/icons/pika2.png") no-repeat !important;
 }
 
+/* Domadness */
+.id-6385488 > .msg > .from > i.icon-chat-bouncer {
+    background: url("https://nightbloo.github.io/icons/dom.png") no-repeat !important;
+}
+
 /* Le Toucan */
 .id-4193885 > .msg > .from > i.icon-chat-subscriber {
     background: url("https://nightbloo.github.io/icons/toucan.png") no-repeat !important;
