@@ -134,15 +134,6 @@
     background: url("https://nightbloo.github.io/icons/pika2.png") no-repeat !important;
 }
 
-/* Law */
-.id-5502961 > .msg > .from :before {
-    content: url("https://nightbloo.github.io/icons/manager.png") !important;
-}
-
-.id-5502961 > .msg > .from > i.icon-chat-manager {
-    content: url("https://nightbloo.github.io/icons/lawhate.png") !important;
-}
-
 /* Le Toucan */
 .id-4193885 > .msg > .from > i.icon-chat-subscriber {
     background: url("https://nightbloo.github.io/icons/toucan.png") no-repeat !important;
