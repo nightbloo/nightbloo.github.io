@@ -45,6 +45,15 @@
     background-position: center center;
 }
 
+/* QBN */
+.id-6518702 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/custom-badges/qbn.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* SaltyMelon */
 .id-6760917 > .badge-box > i.bdg
 {
