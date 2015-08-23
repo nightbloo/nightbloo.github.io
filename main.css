@@ -17,6 +17,16 @@
     background-position: center center;
 }
 
+/* KrDemoz */
+.id-7804003 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/custom-badges/krd.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+
 /* Larry */
 .id-6425524 > .badge-box > i.bdg
 {
