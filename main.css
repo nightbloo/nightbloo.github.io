@@ -178,6 +178,12 @@
     background: url("https://nightbloo.github.io/icons/subrose.png") !important;
 }
 
+/* Dreken */
+.id-3632408 > .msg > .from > i.icon-chat-subscriber
+{
+    background: url("https://nightbloo.github.io/icons/dreke.png") no-repeat !important;
+}
+
 /* Pikachu */
 .id-6630381 > .msg > .from > i.istranslator
 {
