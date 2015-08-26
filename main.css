@@ -206,7 +206,7 @@
 }
 
 /* Law */
-.id-5502961 > .msg > .from:before
+.id-5502961 > .msg > .from:before :not(.rcsmessage)
 {
     content: url("https://nightbloo.github.io/icons/manager.png") !important;
 }
