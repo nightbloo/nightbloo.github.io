@@ -195,7 +195,7 @@
     background: url("https://nightbloo.github.io/icons/pika2.png") no-repeat !important;
 }
 
-.id-6630381 > .msg > .from:before
+.id-6630381 > .msg > .from:before :not(.rcsmessage)
 {
     content: url("https://nightbloo.github.io/icons/bouncer.png") !important;
 }
