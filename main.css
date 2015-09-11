@@ -189,6 +189,15 @@
     background-position: center center;
 }
 
+/* Cresceda */
+.id-11591037 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/custom-badges/Cresceda.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* Custom Icons */
 /* Rose */
 .id-5713188 > .msg > .from > i.icon-chat-subscriber
