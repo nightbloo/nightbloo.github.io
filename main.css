@@ -17,6 +17,15 @@
     background-position: center center;
 }
 
+/* Káppá Bo? */
+.id-6011708 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/custom-badges/kappabot.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* KelticTemplar */
 .id-5151686 > .badge-box > i.bdg
 {
