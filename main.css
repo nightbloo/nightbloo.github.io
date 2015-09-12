@@ -575,7 +575,7 @@
     background-position: center center;
 }
 
-/* Extra non-important stuff */
+/* Extra non-important stuff 
 .id-5767704:hover span.un.clickable
 {
     transform:  rotate3d(7, 20, 9, 360deg);
@@ -598,7 +598,7 @@
     transition: all 1s linear;
 }
 
-/* The law giveth, the law taketh */
+/* The law giveth, the law taketh 
 .id-5502961:hover span.un.clickable
 {
     transform:   rotate3d(8, 1, 5, 360deg);
@@ -622,7 +622,7 @@
 .id-5502961 > .msg > .from > i.icon-chat-manager
 {
     transition: all 1s linear;
-}
+}*/
 
 /* HerpDerp */
 
