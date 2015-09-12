@@ -507,6 +507,11 @@
 }
 
 /* Law */
+.id-5502961 > .msg > .from > i.icon-chat-subscriber
+{
+    background: url("https://nightbloo.github.io/icons/law1.png") no-repeat !important;
+}
+
 .id-5502961:not(.rsshit) > .msg > .from:before 
 {
     content: url("https://nightbloo.github.io/icons/manager.png") !important;
