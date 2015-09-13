@@ -522,10 +522,10 @@
     background: url("https://nightbloo.github.io/icons/pika.png") no-repeat !important;
 }
 
-/*.id-6630381:not(.rsshit) > .msg > .from:before 
+.id-6630381:not(.rsshit) > .msg > .from:before 
 {
    content: url("https://nightbloo.github.io/icons/bouncer.png") !important;
-}*/
+}
 
 .id-6630381 > .msg > .from > i.icon-chat-bouncer
 {
@@ -538,10 +538,10 @@
     background: url("https://nightbloo.github.io/icons/law1.png") no-repeat !important;
 }
 
-/*.id-5502961:not(.rsshit) > .msg > .from:before 
+.id-5502961:not(.rsshit) > .msg > .from:before 
 {
     content: url("https://nightbloo.github.io/icons/manager.png") !important;
-}*/
+}
 
 .id-5502961 > .msg > .from > i.icon-chat-manager
 {
