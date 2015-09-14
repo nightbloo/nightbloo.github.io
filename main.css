@@ -503,6 +503,7 @@
 /* Icon fix :before */
 div.message > div.msg > div.from > span.un{
     vertical-align: top;
+    horizontal-align: left;
 }
 
 /* Rose */
@@ -539,6 +540,13 @@ div.message > div.msg > div.from > span.un{
 }
 
 /* Law */
+
+[data-cid^="5502961-"] .msg .from .un
+{
+        color:                  #000 !important;
+        text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
+}
+
 .id-5502961 > .msg > .from > i.icon-chat-subscriber
 {
     background: url("https://nightbloo.github.io/icons/law1.png") no-repeat !important;
@@ -608,13 +616,6 @@ div.message > div.msg > div.from > span.un{
 }
 
 /* Extra non-important stuff 
-
-[data-cid^="5502961-"] .msg .from .un
-{
-        color:                  #000 !important;
-        text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
-}
-
 
 .id-5767704:hover span.un.clickable
 {
