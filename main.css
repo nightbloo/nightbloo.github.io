@@ -499,6 +499,12 @@
 }
 
 /* Custom Icons */
+
+/* Icon fix :before */
+div.message > div.msg > div.from > span.un{
+    vertical-align: top;
+}
+
 /* Rose */
 .id-5713188 > .msg > .from > i.icon-chat-subscriber
 {
@@ -602,6 +608,14 @@
 }
 
 /* Extra non-important stuff 
+
+[data-cid^="5502961-"] .msg .from .un
+{
+        color:                  #000 !important;
+        text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
+}
+
+
 .id-5767704:hover span.un.clickable
 {
     transform:  rotate3d(7, 20, 9, 360deg);
