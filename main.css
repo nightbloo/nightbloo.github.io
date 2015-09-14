@@ -547,6 +547,11 @@
 {
     background: url("https://nightbloo.github.io/icons/lawhate.png") no-repeat !important;
 }
+[data-cid^="5502961-"] .msg .from .un
+{
+        color:                  #000 !important;
+        text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
+}
 
 /* Domadness */
 .id-6385488 > .msg > .from > i.icon-chat-bouncer
