@@ -9,6 +9,16 @@
     background-position: center center;
 }
 
+/* Bob */
+#user-rollover.id-3739478 .badge-box > i.bdg
+{
+    border-radius: 6px;
+    background-image:    url("https://nightbloo.github.io/custom-badges/Bob.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* CookieMichal */
 #user-rollover.id-3819880 .badge-box > i.bdg
 {
@@ -267,6 +277,15 @@
 .id-5713188 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/custom-badges/rosebouncy.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Bob */
+.id- 3739478 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/custom-badges/Bob.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
