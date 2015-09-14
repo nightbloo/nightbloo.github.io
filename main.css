@@ -552,15 +552,6 @@ div.message > div.msg > div.from > span.un{
     background: url("https://nightbloo.github.io/icons/law1.png") no-repeat !important;
 }
 
-.id-5502961:not(.rsshit) > .msg > .from:before 
-{
-    content: url("https://nightbloo.github.io/icons/manager.png") !important;
-}
-
-.id-5502961 > .msg > .from > i.icon-chat-manager
-{
-    background: url("https://nightbloo.github.io/icons/lawhate.png") no-repeat !important;
-}
 
 /* Domadness */
 .id-6385488 > .msg > .from > i.icon-chat-bouncer
