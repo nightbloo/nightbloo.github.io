@@ -574,6 +574,18 @@ div.message > div.msg > div.from > span.un
     background: url("https://nightbloo.github.io/icons/pika2.png") no-repeat !important;
 }
 
+/* Law */
+
+[data-cid^="5502961-"] .msg .from .un
+{
+    color:       #000000 !important;
+    text-shadow: 0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
+}
+
+.id-5502961 > .msg > .from > i.icon-chat-manager
+{
+    background: url("https://nightbloo.github.io/icons/LawManager.png") no-repeat !important;
+}
 
 .id-5502961 > .msg > .from > i.icon-chat-subscriber
 {
