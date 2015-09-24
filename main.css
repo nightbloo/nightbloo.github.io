@@ -623,6 +623,11 @@ div.message > div.msg > div.from > span.un
     background: url("https://nightbloo.github.io/icons/dom.png") no-repeat !important;
 }
 
+.id-6385488 > .msg > .from > i.icon-chat-subscriber
+{
+    background: url("https://nightbloo.github.io/icons/Ragerino.png") no-repeat !important;
+}
+
 /* Le Toucan */
 .id-4193885 > .msg > .from > i.icon-chat-subscriber
 {
