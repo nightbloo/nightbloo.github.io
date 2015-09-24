@@ -1,3 +1,8 @@
+/* Icon fix :before */
+div.message > div.msg > div.from > span.un{
+    vertical-align: top;
+}
+
 /* Custom Badges In Rollover */
 /* Rose */
 #user-rollover.id-5713188 .badge-box > i.bdg
