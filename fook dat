@@ -17,26 +17,32 @@
     border: 0px solid transparent;
 }
 /*  MATT */
-#chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username:visited{
+#chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-
+55ffae8a196f170300cc0d64 .activity-row .text p a.username:visited{
   color: #2D882D;
 }
 /* PIKA */
-#chat .chat-container ul.chat-main li.user-55ffae6a1564a403003f5132 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffae6a1564a403003f5132 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffae6a1564a403003f5132 .activity-row .text p a.username:visited{
+#chat .chat-container ul.chat-main li.user-55ffae6a1564a403003f5132 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffae6a1564a403003f5132 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-
+55ffae6a1564a403003f5132 .activity-row .text p a.username:visited{
   color: #2D882D;
 }
 /* LEAF */
-#chat .chat-container ul.chat-main li.user-5607ef1927456e030071ce13 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-5607ef1927456e030071ce13 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-5607ef1927456e030071ce13 .activity-row .text p a.username:visited{
+#chat .chat-container ul.chat-main li.user-5607ef1927456e030071ce13 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-5607ef1927456e030071ce13 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-
+5607ef1927456e030071ce13 .activity-row .text p a.username:visited{
   color: #2D882D;
 }
 /* MELON */
-#chat .chat-container ul.chat-main li.user-55ffc599196f170300cc0f31 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffc599196f170300cc0f31 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffc599196f170300cc0f31 .activity-row .text p a.username:visited{
+#chat .chat-container ul.chat-main li.user-55ffc599196f170300cc0f31 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffc599196f170300cc0f31 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-
+55ffc599196f170300cc0f31 .activity-row .text p a.username:visited{
   color: #FF66FF;
 }
 /* SNAKY */
-#chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username:visited{
+#chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-
+55ffe2e0196f170300cc1037 .activity-row .text p a.username:visited{
   color: #FF66FF;
 }
 /* CRESCEDA */
-#chat .chat-container ul.chat-main li.user-56005230239f1303009c88b4 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-56005230239f1303009c88b4 .activity-row .text p a.username:visited{
+#chat .chat-container ul.chat-main li.user-56005230239f1303009c88b4 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-
+56005230239f1303009c88b4 .activity-row .text p a.username:visited{
   color: #FF66FF;
 }
