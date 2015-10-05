@@ -1,3 +1,7 @@
+/* User indication */
+#chat .chat-container ul.chat-main li.current-chat-user .activity-row .text p a.username{
+  color: gold !important;
+}
 /* transparent chat */
 #chat {
   background-color: rgba(0, 0, 0, 0.8);
