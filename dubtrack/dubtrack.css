@@ -22,6 +22,8 @@
     border: 0px solid transparent;
 }
 
+#main-room:not(.fullscreenParent) .durationRemaining { margin: 6px 0px 0px 0 !important; }
+
 /* name colours */
 /*  MATT */
 #chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username:visited{
