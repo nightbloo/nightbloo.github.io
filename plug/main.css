@@ -270,9 +270,9 @@
 }
 
 /* h6h7h8h2 */
-#user-rollover.id-5795632  .badge-box > i.bdg
+#user-rollover.id-5795632 .badge-box > i.bdg
 {
-	border-radius:       6px;
+    border-radius:       6px;
     background-image:    url("https://nightbloo.github.io/custom-badges/h6h7h8h2.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
@@ -576,7 +576,7 @@ div.message > div.msg > div.from > span.un
 
 /* Law */
 
- [data-cid^="5502961-"] .msg .from .un
+[data-cid^="5502961-"] .msg .from .un
 {
     color:       #000000 !important;
     text-shadow: 0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
@@ -587,12 +587,9 @@ div.message > div.msg > div.from > span.un
     background: url("https://nightbloo.github.io/icons/LawManager.png") no-repeat !important;
 }
 
-
-
 .id-5502961 > .msg > .from > i.icon-chat-subscriber
 {
-@@ -653,31 +639,7 @@ div.message > div.msg > div.from > span.un
-    transition: all 1s linear;
+    @ @ -653, 31 +639, 7 @ @ div . message > div . msg > div . from > span . un transition : all 1 s linear;
 }
 
 /* The law giveth, the law taketh 
