@@ -10,6 +10,11 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.chat-main li:nth-child(even) {
+    background: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: -8px 0px 0px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
 #chat .chat-container .pusher-chat-widget-input
 {
     background-color: rgba(0, 0, 0, 0.6);
