@@ -4,15 +4,40 @@
     color: gold !important;
 }
 
-/* Transparancies */
+/* transparent chat */
+#chat
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.chat-main li:nth-child(even) {
+    background: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: -8px 0px 0px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
+#chat .chat-container .pusher-chat-widget-input
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#chat .chat_tools
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 #player-controller
 {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-#header-global
+#chat .chat-container ul.chat-main li .image_row > img
 {
-    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+}
+
+#chat .chat-container ul.chat-main li .image_row:after
+{
+    border: 0px solid transparent;
 }
 
 #main-room:not(.fullscreenParent) .durationRemaining
