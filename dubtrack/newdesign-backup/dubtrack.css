@@ -1,0 +1,128 @@
+/* User indication */
+#chat .chat-container ul.chat-main li.current-chat-user .activity-row .text p a.username{
+  color: gold !important;
+}
+/* transparent chat */
+#chat {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#chat .chat-container .pusher-chat-widget-input {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#chat .chat_tools {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#player-controller {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#chat .chat-container ul.chat-main li .image_row > img {
+  border-radius: 25px;
+}
+#chat .chat-container ul.chat-main li .image_row:after {
+    border: 0px solid transparent;
+}
+
+#main-room:not(.fullscreenParent) .durationRemaining { margin: 6px 0px 0px 0 !important; }
+
+/* name colours */
+/*  MATT */
+#chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffae8a196f170300cc0d64 .activity-row .text p a.username:visited{
+  color: #D11919;
+}
+/* PIKA */
+#chat .chat-container ul.chat-main li.user-55ffae6a1564a403003f5132 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffae6a1564a403003f5132 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffae6a1564a403003f5132 .activity-row .text p a.username:visited{
+  color: #D11919;
+}
+/* LEAF */
+#chat .chat-container ul.chat-main li.user-5607ef1927456e030071ce13 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-5607ef1927456e030071ce13 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-5607ef1927456e030071ce13 .activity-row .text p a.username:visited{
+  color: #D11919;
+}
+/* MELON */
+#chat .chat-container ul.chat-main li.user-55ffc599196f170300cc0f31 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffc599196f170300cc0f31 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffc599196f170300cc0f31 .activity-row .text p a.username:visited{
+  color: #DF5E5E;
+}
+/* SNAKY */
+#chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-55ffe2e0196f170300cc1037 .activity-row .text p a.username:visited{
+  color: #DF5E5E;
+}
+/* CRES */
+#chat .chat-container ul.chat-main li.user-56005230239f1303009c88b4 .activity-row .text p a.username, #chat .chat-container ul.chat-main li.user-56005230239f1303009c88b4 .activity-row .text p a.username:hover, #chat .chat-container ul.chat-main li.user-56005230239f1303009c88b4 .activity-row .text p a.username:visited{
+  color: #DF5E5E;
+}
+
+/* Mod icons */
+/* Matt */
+#chat li.user-55ffae8a196f170300cc0d64 p a.username::before{
+  content: "Mod";
+  font-size:.7em;
+  background:darkmagenta;
+  margin-right: 3px;
+  color:white;
+  text-align:center;
+  border-radius:40%;
+  padding: 0px 4px;
+  box-shadow:0 0 5px #333;
+}
+/* Pikachu */
+#chat li.user-55ffae6a1564a403003f5132 p a.username::before{
+  content: "Mod";
+  font-size:.7em;
+  background:darkmagenta;
+  margin-right: 3px;
+  color:white;
+  text-align:center;
+  border-radius:40%;
+  padding: 0px 4px;
+  box-shadow:0 0 5px #333;
+}
+/* Leaf */
+#chat li.user-5607ef1927456e030071ce13 p a.username::before{
+  content: "Mod";
+  font-size:.7em;
+  background:darkmagenta;
+  margin-right: 3px;
+  color:white;
+  text-align:center;
+  border-radius:40%;
+  padding: 0px 4px;
+  box-shadow:0 0 5px #333;
+}
+/* Melon */
+#chat li.user-55ffc599196f170300cc0f31 p a.username::before{
+  content: "Mod";
+  font-size:.7em;
+  background:darkmagenta;
+  margin-right: 3px;
+  color:white;
+  text-align:center;
+  line-height:20px;
+  border-radius:40%;
+  padding: 0px 4px;
+  box-shadow:0 0 5px #333;
+}
+/* Snaky */
+#chat li.user-55ffe2e0196f170300cc1037 p a.username::before{
+  content: "Mod";
+  font-size:.7em;
+  background:darkmagenta;
+  margin-right: 3px;
+  color:white;
+  text-align:center;
+  line-height:20px;
+  border-radius:40%;
+  padding: 0px 4px;
+  box-shadow:0 0 5px #333;
+}
+/* Cres */
+#chat li.user-56005230239f1303009c88b4 p a.username::before{
+  content: "Mod";
+  font-size:.7em;
+  background:darkmagenta;
+  margin-right: 3px;
+  color:white;
+  text-align:center;
+  line-height:20px;
+  border-radius:40%;
+  padding: 0px 4px;
+  box-shadow:0 0 5px #333;
+}
