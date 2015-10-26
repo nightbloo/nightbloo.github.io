@@ -2,6 +2,7 @@
     max-width: none;
 }
 #main-room .main-room-wrapper .left_section{
+    left: inherit;
     right: 0;
     width: 40vw;
     padding-right: 0;
