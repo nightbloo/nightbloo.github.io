@@ -81,28 +81,33 @@
     content: url(https://nightbloo.github.io/plug/icons/hostpink.png);
     position: relative;
     top: 4px;
+    padding-right: 2px;
 }
 
 #chat .chat-main .isCo-owner .username:before{
     content: url(https://nightbloo.github.io/plug/icons/hostrose.png);
     position: relative;
     top: 4px;
+    padding-right: 2px;
 }
 
 #chat .chat-main .isManager .username:before{
     content: url(https://nightbloo.github.io/plug/icons/manager.png);
     position: relative;
     top: 4px;
+    padding-right: 2px;
 }
 
 #chat .chat-main .isMod .username:before{
     content: url(https://nightbloo.github.io/plug/icons/bouncer.png);
     position: relative;
     top: 4px;
+    padding-right: 2px;
 }
 
 #chat .chat-main .isResident-dj .username:before{
     content: url(https://nightbloo.github.io/plug/icons/rdj.png);
     position: relative;
     top: 4px;
+    padding-right: 2px;
 }
