@@ -55,7 +55,7 @@
 #chat .chat-main .isCo-owner .username, 
 #chat .chat-main .isCo-owner .username:hover, 
 #chat .chat-main .isCo-owner .username:visited{
-    color: ##FF007F !important;
+    color: #FF007F !important;
 }
 
 #chat .chat-main .isManager .username, 
