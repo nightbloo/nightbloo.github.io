@@ -4,6 +4,9 @@
   margin-top: 0;
   width: 40%;
   float: right;
+  right: 0;
+  left: initial;
+  padding-right: 0px;
 }
 #main-room:not(.fullscreenParent) #main_player { padding: 0.5em .4em .5em .5em }
 #main-room:not(.fullscreenParent) #main_player .player_container { height: 14.8em; }
@@ -13,4 +16,8 @@
   left: initial;
   right: 0;
   padding-top: 6px;
+}
+
+#main-room{
+    max-width: 100vw;
 }
