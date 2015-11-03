@@ -12,3 +12,8 @@
 #main-room:not(.fullscreenParent) #chat .chat-tools .room-user-counter { padding-top: .75em !important; }
 #main-room:not(.fullscreenParent) #chat .chat-container .chat-messages { height: inherit !important; }
 #main-room:not(.fullscreenParent) #chat .chat-container, #chat { height: 100%; }
+
+
+#main-room{
+    max-width: 100vw;
+}
