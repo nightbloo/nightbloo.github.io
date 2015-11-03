@@ -6,19 +6,35 @@
 }
 
 /* Transparancies */
+#player-controller .left
+{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+#player-controller > div.left > ul > li.infoContainer.display-block{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+#player-controller .right ul li a.dubup.voted{
+   background-color: rgba(0, 255, 255, 0.4);
+}
+
+#player-controller .right ul li a.dubdown.voted{
+   background-color: rgba(255, 0, 255, 0.4);
+}
+
+#player-controller > div.right{
+    background: none;
+    background-color: rgba(68, 68, 68, 0.2);
+}
+
 #player-controller
 {
-    background-color: rgba(0, 0, 0, 0.8);
+    background: none !important;
 }
 
 #header-global
 {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-#main-room:not(.fullscreenParent) .durationRemaining
-{
-    margin: 6px 0px 0px 0 !important;
 }
 
 /* name colours */
