@@ -1,0 +1,39 @@
+/* Chat completly to the right */
+#main-room:not(.fullscreenParent)
+{
+    margin: 3px 0 0 0;
+}
+
+#main-room:not(.fullscreenParent) .right_section
+{
+    right:        0;
+    margin-right: 0px !important;
+    float:        right !important;
+    height:       calc(100vh - 4.9em);
+    width:        400px !important;
+}
+
+#main-room:not(.fullscreenParent) .left_section
+{
+    margin-right: 400px;
+}
+
+#main-room:not(.fullscreenParent) #chat .chat-tools .room-user-counter
+{
+    padding-top: .75em !important;
+}
+
+#main-room:not(.fullscreenParent) #chat .chat-container .chat-messages
+{
+    height: inherit !important;
+}
+
+#main-room:not(.fullscreenParent) #chat .chat-container, #chat
+{
+    height: 100%;
+}
+
+#main-room:not(.fullscreenParent) #chat .chat-container ul.chat-main li .activity-row
+{
+    width: calc(20.5em - 40px);
+}

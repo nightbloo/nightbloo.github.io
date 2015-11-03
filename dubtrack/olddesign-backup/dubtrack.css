@@ -1,0 +1,113 @@
+/* User indication */
+#chat .chat-container ul.chat-main li.current-chat-user .activity-row .text p a.username
+{
+    color: gold !important;
+}
+
+/* transparent chat */
+#chat
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.chat-main li:nth-child(even) {
+    background: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: -8px 0px 0px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
+#chat .chat-container .pusher-chat-widget-input
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#chat .chat_tools
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#player-controller
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#chat .chat-container ul.chat-main li .image_row > img
+{
+    border-radius: 25px;
+}
+
+#chat .chat-container ul.chat-main li .image_row:after
+{
+    border: 0px solid transparent;
+}
+
+#main-room:not(.fullscreenParent) .durationRemaining
+{
+    margin: 6px 0px 0px 0 !important;
+}
+
+/* name colours */
+#chat .chat-main .isOwner .username, 
+#chat .chat-main .isOwner .username:hover, 
+#chat .chat-main .isOwner .username:visited{
+    color: #FF38CB !important;
+}
+
+#chat .chat-main .isCo-owner .username, 
+#chat .chat-main .isCo-owner .username:hover, 
+#chat .chat-main .isCo-owner .username:visited{
+    color: ##FF007F !important;
+}
+
+#chat .chat-main .isManager .username, 
+#chat .chat-main .isManager .username:hover, 
+#chat .chat-main .isManager .username:visited{
+    color: #3083FF !important;
+}
+
+#chat .chat-main .isMod .username, 
+#chat .chat-main .isMod .username:hover, 
+#chat .chat-main .isMod .username:visited{
+    color: #3083FF !important;
+}
+
+#chat .chat-main .isResident-dj .username, 
+#chat .chat-main .isResident-dj .username:hover, 
+#chat .chat-main .isResident-dj .username:visited{
+    color: #33CCFF !important;
+}
+
+/* badges */
+#chat .chat-main .isOwner .username:before{
+    content: url(https://nightbloo.github.io/plug/icons/hostpink.png);
+    position: relative;
+    top: 4px;
+    padding-right: 2px;
+}
+
+#chat .chat-main .isCo-owner .username:before{
+    content: url(https://nightbloo.github.io/plug/icons/hostrose.png);
+    position: relative;
+    top: 4px;
+    padding-right: 2px;
+}
+
+#chat .chat-main .isManager .username:before{
+    content: url(https://nightbloo.github.io/plug/icons/manager.png);
+    position: relative;
+    top: 4px;
+    padding-right: 2px;
+}
+
+#chat .chat-main .isMod .username:before{
+    content: url(https://nightbloo.github.io/plug/icons/bouncer.png);
+    position: relative;
+    top: 4px;
+    padding-right: 2px;
+}
+
+#chat .chat-main .isResident-dj .username:before{
+    content: url(https://nightbloo.github.io/plug/icons/rdj.png);
+    position: relative;
+    top: 4px;
+    padding-right: 2px;
+}
