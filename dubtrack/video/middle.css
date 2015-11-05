@@ -9,3 +9,9 @@
   padding: 0px;
 }
 #main-room:not(.fullscreenParent) #main_player { padding: 0.5em .5em .5em .5em }
+
+/* Video to the top */
+#main-room > div > section.left_section > div.main-player-wrapper{
+  vertical-align: top;
+  padding-top: 35px;
+}
