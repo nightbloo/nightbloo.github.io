@@ -1,78 +1,88 @@
-/* User indication */
-#chat .chat-main .current-chat-user
+/* Make stuff have a bit of opacity :) */
+#browser.animate
 {
-    border-right: gold 2px dotted;
+    bottom: 56px;
+    bottom: 3.5rem;
 }
 
-/* transparent chat */
-#chat
+#browser
 {
-    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 1224px !important;
+    padding-top: 8.5rem !important;
 }
 
-.chat-main li:nth-child(even)
+#browser .browser-content,
+#player-controller,
+#header-global,
+#main-menu-left,
+#main-menu-right
 {
-    background: rgba(0, 0, 0, 0.5) !important;
-    box-shadow: -8px 0 0 0 rgba(0, 0, 0, 0.5) !important;
+    opacity: .95 !important;
 }
 
-#chat .chat-container .pusher-chat-widget-input
-{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-#chat .chat_tools
-{
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-#player-controller
-{
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-#new-messages-counter
-{
-    background-color: rgba(255, 0, 255, 0.5) !important;
-}
-
-/* User Image */
-
-#chat .chat-container ul.chat-main li .image_row > img
-{
-    border-radius: 15px;
-}
-
-#chat .chat-container ul.chat-main li .image_row:after
-{
-    border: 0 solid transparent;
-}
-
-/* Text formats */
+/*
+ * Text formats 
+ * This looks a litte better to me
+ */
 #chat .chat-main .username
 {
-    display: block;
-    clear: both;
-    opacity: 0.7;
-    font-size: 95%;
+    opacity:   0.7;
+    font-size: 90% !important;
 }
 
-#chat .chat-main .activity-row
+/* Let's make the text not so spacey */
+#chat .chat-main .activity-row p
 {
-    padding-top: 1px !important;
-    padding-bottom: 0px !important;
-    min-height: 2.5em !important;
+    line-height: 1.15;
 }
 
+/*
+ * This makes sure that emotes on the last p don't get cut off by giving
+ * them a little space to live
+ */
+#chat .chat-main .activity-row p:nth-child(n+2):last-child
+{
+    padding-bottom: 0.4em !important;
+}
+
+/* So yea the image was a little too close to the top of the message */
+#chat .chat-main .image_row
+{
+    top: 0.25em !important;
+}
+
+/* Move the time info to the top right */
 #chat .chat-main .meta-info
 {
     position: absolute;
-    top: -0.25em !important;
-    right: 1em !important;
-    left: initial !important;
+    top:      1.5em !important;
+    right:    2.25em !important;
+    left:     initial !important;
+    width:    20em !important;
 }
 
-/* Role styles */
+/* Clearn up the space that the time info used before */
+#chat .chat-main li
+{
+    padding-bottom: 0 !important;
+}
+
+/* Them /me commands take up so much v space */
+.chat-me-command-joined
+{
+    min-height: initial !important;
+}
+
+/* That little bit of space at the bottom of the chat window was killing me */
+#chat .chat-main
+{
+    padding-bottom: 0 !important;
+}
+
+/* 
+ * Role styles 
+ * A bit of formatting for role stuffs
+ */
 #chat .chat-main .isResident-dj .username:before,
 #chat .chat-main .isVip .username:before,
 #chat .chat-main .isMod .username:before,
@@ -80,10 +90,10 @@
 #chat .chat-main .isCo-owner .username:before,
 #chat .chat-main .isAdmin .username:before
 {
-    font-size:     .7em;
+    font-size:     .75em;
     margin-right:  3px;
     text-align:    center;
-    padding:       0 4px;
+    padding:       0 3px;
     box-shadow:    0 0 5px #333333;
     color:         white;
     border-radius: 15%;
@@ -113,7 +123,7 @@
 #chat .chat-main .isResident-dj .username:before
 {
     content:    "R";
-    background: #5D5D5D;
+    background: rgba(93, 93, 93, 0.5);
 }
 
 #chat .chat-main .isResident-dj .username:hover:before
@@ -137,7 +147,7 @@
 #chat .chat-main .isVip .username:before
 {
     content:    "V";
-    background: #885d00;
+    background: rgba(136, 93, 0, 0.5);
 }
 
 #chat .chat-main .isVip .username:hover:before
@@ -161,7 +171,7 @@
 #chat .chat-main .isMod .username:before
 {
     content:    "M";
-    background: darkmagenta;
+    background: rgba(139, 0, 139, 0.5);
 }
 
 #chat .chat-main .isMod .username:hover:before
@@ -185,7 +195,7 @@
 #chat .chat-main .isManager .username:before
 {
     content:    "Ma";
-    background: #580058;
+    background: rgba(88, 0, 88, 0.5);
 }
 
 #chat .chat-main .isManager .username:hover:before
@@ -209,7 +219,7 @@
 #chat .chat-main .isCo-owner .username:before
 {
     content:    "O";
-    background: #ff007e;
+    background: rgba(255, 0, 126, 0.5);
 }
 
 #chat .chat-main .isCo-owner .username:hover:before
@@ -220,39 +230,4 @@
 #chat .chat-main li.isManager
 {
     border-top-color: rgba(255, 0, 126, 0.2);
-}
-
-/* Admin */
-#chat .chat-main .user-52c821781e2b1fd945000001 .username:before,
-#chat .chat-main .user-52c8ef6037e22b0200000005 .username:before,
-#chat .chat-main .user-52d24bff4cf9670200000515 .username:before,
-#chat .chat-main .user-52c8efcf37e22b0200000008 .username:before,
-#chat .chat-main .user-52c8254ca7b7260200000001 .username:before
-{
-    background:    #FF7E00 !important;
-    font-size:     .7em;
-    margin-right:  3px;
-    text-align:    center;
-    padding:       0 4px;
-    box-shadow:    0 0 5px #333333;
-    color:         white;
-    border-radius: 15%;
-}
-
-#chat .chat-main .user-52c821781e2b1fd945000001 .username:hover:before,
-#chat .chat-main .user-52c8ef6037e22b0200000005 .username:hover:before,
-#chat .chat-main .user-52d24bff4cf9670200000515 .username:hover:before,
-#chat .chat-main .user-52c8efcf37e22b0200000008 .username:hover:before,
-#chat .chat-main .user-52c8254ca7b7260200000001 .username:hover:before
-{
-    border-radius: 40%;
-}
-
-#chat .chat-main li.user-52c821781e2b1fd945000001,
-#chat .chat-main li.user-52c8ef6037e22b0200000005,
-#chat .chat-main li.user-52d24bff4cf9670200000515,
-#chat .chat-main li.user-52c8efcf37e22b0200000008,
-#chat .chat-main li.user-52c8254ca7b7260200000001
-{
-    border-top-color: rgba(255, 126, 0, 0.5);
 }
