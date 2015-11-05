@@ -122,23 +122,6 @@
     border-bottom: none !important;
 }
 
-/* The next two are just a small test to see if anyone even notices */
-@media screen and (min-width: 72em)
-{
-    #player-controller .right ul li a
-    {
-        padding-right: 0.5em !important;
-    }
-}
-
-@media screen and (min-width: 72em)
-{
-    #player-controller .left
-    {
-        padding-right: 18.5rem !important;
-    }
-}
-
 /*
  * Role styles
  * A bit of formatting for role stuffs
