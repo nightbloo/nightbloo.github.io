@@ -1,6 +1,6 @@
 /* 
  * Text formats 
- * This looks a litte better to me
+ * This looks a little better to me
  */
 #chat .chat-main .username
 {
@@ -61,7 +61,7 @@
     padding-bottom: 0 !important;
 }
 
-/* So this thing has diffrent formatting than everything else */
+/* So this thing has different formatting than everything else */
 .user-1
 {
     padding-bottom: 0.2em !important;
@@ -80,17 +80,23 @@
 }
 
 /* idk why but I like to be able to see that bottom bar when in the browser */
-#browser.animate
+@media screen and (min-width: 72em)
 {
-    bottom: 56px;
-    bottom: 3.5rem;
+    #browser.animate
+    {
+        bottom: 56px;
+        bottom: 3.5rem;
+    }
 }
 
 /* So that other change makes the browser stick it's head in to the top bar let's cut it down a bit */
-#browser
+@media screen and (min-width: 72em)
 {
-    padding-top: 1224px !important;
-    padding-top: 8.5rem !important;
+    #browser
+    {
+        padding-top: 1224px !important;
+        padding-top: 8.5rem !important;
+    }
 }
 
 /* Let's have some light on our sweet backgrounds and stuff */
@@ -98,13 +104,43 @@
 #player-controller,
 #header-global,
 #main-menu-left,
-#main-menu-right
+#main-menu-right,
+#mobile-room-menu
 {
-    opacity: .95 !important;
+    opacity: .9;
+}
+
+/* idk maybe someone will want to see that background even more */
+.player_container
+{
+    opacity: 0.95;
+}
+
+/* So this was adding an extra line it seems */
+#emoji-preview
+{
+    border-bottom: none !important;
+}
+
+/* The next two are just a small test to see if anyone even notices */
+@media screen and (min-width: 72em)
+{
+    #player-controller .right ul li a
+    {
+        padding-right: 0.5em !important;
+    }
+}
+
+@media screen and (min-width: 72em)
+{
+    #player-controller .left
+    {
+        padding-right: 18.5rem !important;
+    }
 }
 
 /*
- * Role styles 
+ * Role styles
  * A bit of formatting for role stuffs
  */
 #chat .chat-main .isResident-dj .username::before,
@@ -185,7 +221,7 @@
     color: #FF8800 !important;
 }
 
-#chat .chat-main li.isVip
+#chat .chat-main .isVip
 {
     border-top-color: rgba(136, 93, 0, 0.2);
 }
@@ -209,7 +245,7 @@
     color: #DF5E5E !important;
 }
 
-#chat .chat-main li.isMod
+#chat .chat-main .isMod
 {
     border-top-color: rgba(139, 0, 139, 0.2);
 }
@@ -233,7 +269,7 @@
     color: #D11919 !important;
 }
 
-#chat .chat-main li.isManager
+#chat .chat-main .isManager
 {
     border-top-color: rgba(88, 0, 88, 0.2);
 }
@@ -250,7 +286,7 @@
     content: "Owner";
 }
 
-#chat .chat-main li.isManager
+#chat .chat-main .isManager
 {
     border-top-color: rgba(255, 0, 126, 0.2);
 }
