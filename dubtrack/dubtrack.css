@@ -1,40 +1,28 @@
 /* User indication */
-/* User indication */
 #chat .chat-container ul.chat-main li.current-chat-user .activity-row .text p a.username
 {
     color: gold !important;
 }
 
-/* Transparancies */
-#player-controller .left
+/* General room design changes */
+#header-global
 {
-    background-color: rgba(0, 0, 0, 0.4) !important;
-}
-#player-controller > div.left > ul > li.infoContainer.display-block{
-    background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
-#player-controller .right ul li a.dubup.voted{
-   background-color: rgba(0, 255, 255, 0.4);
-}
-
-#player-controller .right ul li a.dubdown.voted{
-   background-color: rgba(255, 0, 255, 0.4);
-}
-
-#player-controller > div.right{
-    background: none;
-    background-color: rgba(68, 68, 68, 0.2);
+    border-radius: 0px 0px 3em 3em;
+    border-bottom-left-radius: 3em 2.5em;
+    border-bottom-right-radius: 2.5em 3em;
 }
 
 #player-controller
 {
-    background: none !important;
+    border-radius: 3em 3em 0px 0px;
+    border-top-left-radius: 2.5em 3em;
+    border-top-right-radius: 3em 2.5em;
 }
 
-#header-global
-{
-    background-color: rgba(0, 0, 0, 0.8);
+#player-controller > div.right{
+    border-radius: 3em 3em 0px 0px;
+    border-top-right-radius: 3em 2.5em;
+    border-top-left-radius: 2.5em 3em;
 }
 
 /* name colours */
