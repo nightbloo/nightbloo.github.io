@@ -3,6 +3,9 @@
 {
     color: gold !important;
 }
+#chat .chat-container ul.chat-main li.user-56005297239f1303009c88c5 .activity-row .text p a.username{
+    color: #FF007F !important;
+}
 
 /* General room design changes */
 #header-global
