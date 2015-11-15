@@ -97,7 +97,7 @@
 
 /* Emote sizes */
 #chat .twitch-emoji.emoji {
-  max-width: auto !important;
+  max-width: none !important;
   max-height: 28px !important;
   width: auto !important;
   height: auto !important;
