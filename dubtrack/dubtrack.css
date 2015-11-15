@@ -96,8 +96,9 @@
 }
 
 /* Emote sizes */
-.twitch-emoji.emoji[title="lenny"], .twitch-emoji.emoji[title="shrug"]{
-  max-width: none !important;
+#chat .twitch-emoji.emoji {
+  max-width: auto !important;
+  max-height: 28px !important;
   width: auto !important;
   height: auto !important;
 }
