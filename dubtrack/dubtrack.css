@@ -68,7 +68,7 @@
 }
 
 /* badges */
-#chat .chat-main .isOwner .username:before
+#chat .chat-main .isOwner .username::before
 {
     content:       url(https://nightbloo.github.io/plug/icons/hostpink.png);
     position:      relative;
@@ -76,7 +76,7 @@
     padding-right: 2px;
 }
 
-#chat .chat-main .isCo-owner .username:before
+#chat .chat-main .isCo-owner .username::before
 {
     content:       url(https://nightbloo.github.io/plug/icons/hostrose.png);
     position:      relative;
@@ -84,7 +84,7 @@
     padding-right: 2px;
 }
 
-#chat .chat-main .isManager .username:before
+#chat .chat-main .isManager .username::before
 {
     content:       url(https://nightbloo.github.io/plug/icons/manager.png);
     position:      relative;
@@ -92,7 +92,7 @@
     padding-right: 2px;
 }
 
-#chat .chat-main .isMod .username:before
+#chat .chat-main .isMod .username::before
 {
     content:       url(https://nightbloo.github.io/plug/icons/bouncer.png);
     position:      relative;
@@ -100,7 +100,7 @@
     padding-right: 2px;
 }
 
-#chat .chat-main .isResident-dj .username:before
+#chat .chat-main .isResident-dj .username::before
 {
     content:       url(https://nightbloo.github.io/plug/icons/rdj.png);
     position:      relative;
