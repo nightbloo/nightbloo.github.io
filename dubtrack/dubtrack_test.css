@@ -21,7 +21,13 @@
  */
 #chat .chat-main .activity-row p:last-child
 {
-    padding-bottom: 0.5em !important;
+    padding-bottom: 0.3em !important;
+}
+
+/* I'm not sure why someone made me have to change this but I don't like it */
+#chat .chat-main .activity-row
+{
+    padding-top: 1px !important;
 }
 
 /* So yea the image was a little too close to the top of the message */
@@ -55,7 +61,7 @@
     -webkit-margin-after: 0 !important;
 }
 
-/* Clearn up the space that the time info used before */
+/* Clear up the space that the time info used before */
 #chat .chat-main li:not(.user-1)
 {
     padding-bottom: 0 !important;
