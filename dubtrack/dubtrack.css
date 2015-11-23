@@ -108,6 +108,14 @@
     padding-right: 2px;
 }
 
+#chat .chat-main .user-56216481426d191300e5bfef .username::before
+{
+    content:       url(https://nightbloo.github.io/plug/icons/bot.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 2px;
+}
+
 /* Emote sizes */
 #chat .twitch-emoji.emoji
 {
@@ -119,4 +127,9 @@
 
 /* me command fix */
 #chat .chat-container .chat-messages .chat-main li.system-error { text-transform: uppercase; }
-#chat .chat-main .system, #chat .chat-main .chat-system-loading { text-align: center; color: #0090CC !important; }
+#chat .chat-main li[class*='system']{
+    color: darkturquoise !important;
+    text-align: center;
+    border-top: darkturquoise 1px solid !important;
+    border-bottom: darkturquoise 1px solid !important;
+}
