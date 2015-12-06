@@ -6,29 +6,7 @@
 
 #chat .chat-container ul.chat-main li.user-56005297239f1303009c88c5 .activity-row .text p a.username
 {
-    color: #FF007F !important;
-}
-
-/* General room design changes */
-#header-global
-{
-    border-radius:              0 0 3em 3em;
-    border-bottom-left-radius:  3em 2.5em;
-    border-bottom-right-radius: 2.5em 3em;
-}
-
-#player-controller
-{
-    border-radius:           3em 3em 0 0;
-    border-top-left-radius:  2.5em 3em;
-    border-top-right-radius: 3em 2.5em;
-}
-
-#player-controller > div.right
-{
-    border-radius:           3em 3em 0 0;
-    border-top-right-radius: 3em 2.5em;
-    border-top-left-radius:  2.5em 3em;
+    color: #99B5D0 !important;
 }
 
 /* name colours */
@@ -78,7 +56,7 @@
 
 #chat .chat-main .isCo-owner .username::before
 {
-    content:       url(https://nightbloo.github.io/plug/icons/hostrose.png);
+    content:       url(https://nightbloo.github.io/plug/icons/hostpink.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
@@ -115,6 +93,18 @@
     top:           4px;
     padding-right: 2px;
 }
+
+#chat .chat-main .user-56005297239f1303009c88c5 .username::before{
+    content:       url(https://nightbloo.github.io/plug/icons/akali.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 2px;
+}
+#chat .chat-main .user-56005297239f1303009c88c5 .username{
+    color: #99B5D0 !important;
+}
+
+
 
 /* Emote sizes */
 #chat .twitch-emoji.emoji
