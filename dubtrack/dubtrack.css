@@ -64,7 +64,7 @@
 
 #chat .chat-main .isManager .username::before
 {
-    content:       url(https://nightbloo.github.io/plug/icons/manager.png);
+    content:       url(https://nightbloo.github.io/plug/icons/managerXmas.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
