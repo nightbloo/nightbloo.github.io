@@ -1,14 +1,3 @@
-/* User indication */
-#chat .chat-container ul.chat-main li.current-chat-user .activity-row .text p a.username
-{
-    color: gold !important;
-}
-
-#chat .chat-container ul.chat-main li.user-56005297239f1303009c88c5 .activity-row .text p a.username
-{
-    color: #4dc9ff !important;
-}
-
 /* name colours */
 #chat .chat-main .isOwner .username,
 #chat .chat-main .isOwner .username:hover,
@@ -122,4 +111,17 @@
     text-align: center;
     border-top: darkturquoise 1px solid !important;
     border-bottom: darkturquoise 1px solid !important;
+}
+
+#chat > div.chat-container > div.chat-messages.ps-container  ul  div.stream-item-content::before{
+    content: "";
+    position:      absolute;
+    top:           0px;
+    left: -0.30rem;
+    width: 3rem;
+    height: 2.5rem;
+    background-image: url(https://nightbloo.github.io/dubtrack/specials/hohoho.png);
+    background-size: 3rem 2.5rem;
+    z-index: 1;
+    pointer-events: none;
 }
