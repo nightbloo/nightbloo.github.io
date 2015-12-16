@@ -31,7 +31,7 @@
 #chat .chat-main .isResident-dj .username:hover,
 #chat .chat-main .isResident-dj .username:visited
 {
-    color: #33CCFF !important;
+    color: #4bb110 !important;
 }
 
 /* badges */
@@ -69,7 +69,7 @@
 
 #chat .chat-main .isResident-dj .username::before
 {
-    content:       url(https://nightbloo.github.io/plug/icons/rdj.png);
+    content:       url(https://nightbloo.github.io/plug/icons/hohoho.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
