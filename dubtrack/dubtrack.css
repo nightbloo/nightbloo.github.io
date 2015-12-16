@@ -121,30 +121,31 @@
     height: 3rem;
 }
 #header-global .header-right-navigation .user-info .user-image::before {
-    -ms-transform: translate(-.3rem, -.5rem);
-    -moz-transform: translate(-.3rem, -.5rem);
+            transform: translate(-.3rem, -.5rem);
+        -ms-transform: translate(-.3rem, -.5rem);
+       -moz-transform: translate(-.3rem, -.5rem);
     -webkit-transform: translate(-.3rem, -.5rem);
-    transform: translate(-.3rem, -.5rem);
     width: 2.5rem;
     height: 2rem;
 }
 #profileMainSection .profileWrapper .profileView .header::before {
     width: 13rem;
     height: 13rem;
-    -ms-transform: translate(-1.5rem,-2.5rem);
-    -moz-transform: translate(-1.5rem,-2.5rem);
+            transform: translate(-1.5rem,-2.5rem);
+        -ms-transform: translate(-1.5rem,-2.5rem);
+       -moz-transform: translate(-1.5rem,-2.5rem);
     -webkit-transform: translate(-1.5rem,-2.5rem);
-    transform: translate(-1.5rem,-2.5rem);
 }
 #followersEl .avatarList li::before {
     width: 5rem;
     height: 5rem;
-    -ms-transform: translate(-.5rem,-1rem);
-    -moz-transform: translate(-.5rem,-1rem);
+            transform: translate(-.5rem,-1rem);
+        -ms-transform: translate(-.5rem,-1rem);
+       -moz-transform: translate(-.5rem,-1rem);
     -webkit-transform: translate(-.5rem,-1rem);
-    transform: translate(-.5rem,-1rem);
 }
 body:not(.no-song-playing)::after {
+    position: fixed !important;
     bottom: 0;
     left: -.5rem;
     width: 4.5rem;
