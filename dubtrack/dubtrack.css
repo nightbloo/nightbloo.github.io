@@ -125,3 +125,7 @@
     z-index: 1;
     pointer-events: none;
 }
+
+#autocomplete-preview{
+    z-index: 2;
+}
