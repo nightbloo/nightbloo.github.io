@@ -113,15 +113,57 @@
     border-bottom: darkturquoise 1px solid !important;
 }
 
-#chat > div.chat-container > div.chat-messages.ps-container  ul  div.stream-item-content::before{
-    content: "";
-    position:      absolute;
-    top:           0px;
+/* Christmas Hat */
+#chat > div.chat-container > div.chat-messages.ps-container  ul  div.stream-item-content::before {
+    top: 0px;
     left: -0.30rem;
     width: 3rem;
-    height: 2.5rem;
+    height: 3rem;
+}
+#header-global .header-right-navigation .user-info .user-image::before {
+            transform: translate(-.3rem, -.5rem);
+        -ms-transform: translate(-.3rem, -.5rem);
+       -moz-transform: translate(-.3rem, -.5rem);
+    -webkit-transform: translate(-.3rem, -.5rem);
+    width: 2.5rem;
+    height: 2rem;
+}
+#profileMainSection .profileWrapper .profileView .header::before {
+    width: 13rem;
+    height: 13rem;
+            transform: translate(-1.5rem,-2.5rem);
+        -ms-transform: translate(-1.5rem,-2.5rem);
+       -moz-transform: translate(-1.5rem,-2.5rem);
+    -webkit-transform: translate(-1.5rem,-2.5rem);
+}
+#followersEl .avatarList li::before {
+    width: 5rem;
+    height: 5rem;
+            transform: translate(-.5rem,-1rem);
+        -ms-transform: translate(-.5rem,-1rem);
+       -moz-transform: translate(-.5rem,-1rem);
+    -webkit-transform: translate(-.5rem,-1rem);
+}
+body:not(.no-song-playing)::after {
+    position: fixed !important;
+    bottom: 0;
+    left: -.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    z-index: 13 !important;
+}
+#player-controller .left ul .imgEl img {
+	border-radius: 100% 100% 0 0;
+}
+#chat > div.chat-container > div.chat-messages.ps-container  ul  div.stream-item-content::before,
+#header-global .header-right-navigation .user-info .user-image::before,
+#profileMainSection .profileWrapper .profileView .header::before,
+#followersEl .avatarList li::before,
+body:not(.no-song-playing)::after {
+    content: "";
+	position: absolute;
     background-image: url(https://nightbloo.github.io/dubtrack/specials/hohoho.png);
-    background-size: 3rem 2.5rem;
+	background-size: cover;
     z-index: 1;
     pointer-events: none;
 }
