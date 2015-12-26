@@ -26,6 +26,12 @@
 {
     color: #3C8D0D !important;
 }
+#chat .chat-main .isVip .username,
+#chat .chat-main .isVip .username:hover,
+#chat .chat-main .isVip .username:visited
+{
+    color: #ff80bf !important;
+}
 
 #chat .chat-main .isResident-dj .username,
 #chat .chat-main .isResident-dj .username:hover,
@@ -62,6 +68,13 @@
 #chat .chat-main .isMod .username::before
 {
     content:       url(https://nightbloo.github.io/plug/icons/bouncer.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 2px;
+}
+#chat .chat-main .isVip .username::before
+{
+    content:       url(http://i.imgur.com/ZgdR7JX.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
