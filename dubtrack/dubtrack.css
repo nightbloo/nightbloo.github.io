@@ -17,7 +17,7 @@
 #chat .chat-main .isManager .username:hover,
 #chat .chat-main .isManager .username:visited
 {
-    color: #D42426 !important;
+    color: #3083FF !important;
 }
 
 #chat .chat-main .isMod .username,
@@ -37,7 +37,7 @@
 #chat .chat-main .isResident-dj .username:hover,
 #chat .chat-main .isResident-dj .username:visited
 {
-    color: #4bb110 !important;
+    color: #33CCFF !important;
 }
 
 /* badges */
@@ -59,7 +59,7 @@
 
 #chat .chat-main .isManager .username::before
 {
-    content:       url(https://nightbloo.github.io/plug/icons/Manager2.0.png);
+    content:       url(https://nightbloo.github.io/plug/icons/Manager2.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
@@ -82,7 +82,7 @@
 
 #chat .chat-main .isResident-dj .username::before
 {
-    content:       url(https://nightbloo.github.io/plug/icons/hohoho.png);
+    content:       url(https://nightbloo.github.io/plug/icons/rdj.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
@@ -124,21 +124,4 @@
     text-align: center;
     border-top: darkturquoise 1px solid !important;
     border-bottom: darkturquoise 1px solid !important;
-}
-
-#chat > div.chat-container > div.chat-messages.ps-container  ul  div.stream-item-content::before{
-    content: "";
-    position:      absolute;
-    top:           0px;
-    left: -0.30rem;
-    width: 3rem;
-    height: 2.5rem;
-    background-image: url(https://nightbloo.github.io/dubtrack/specials/hohoho.png);
-    background-size: 3rem 2.5rem;
-    z-index: 1;
-    pointer-events: none;
-}
-
-#autocomplete-preview{
-    z-index: 2;
 }
