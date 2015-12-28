@@ -74,7 +74,7 @@
 }
 #chat .chat-main .isVip .username::before
 {
-    content:       url(http://i.imgur.com/ZgdR7JX.png);
+    content:       url(https://nightbloo.github.io/plug/icons/vip.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
