@@ -26,6 +26,7 @@
 {
     color: #3083FF !important;
 }
+
 #chat .chat-main .isVip .username,
 #chat .chat-main .isVip .username:hover,
 #chat .chat-main .isVip .username:visited
@@ -72,6 +73,7 @@
     top:           4px;
     padding-right: 2px;
 }
+
 #chat .chat-main .isVip .username::before
 {
     content:       url(https://nightbloo.github.io/plug/icons/vip.png);
@@ -96,17 +98,18 @@
     padding-right: 2px;
 }
 
-#chat .chat-main .user-56005297239f1303009c88c5 .username::before{
+#chat .chat-main .user-56005297239f1303009c88c5 .username::before
+{
     content:       url(https://nightbloo.github.io/plug/icons/akali.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
 }
-#chat .chat-main .user-56005297239f1303009c88c5 .username{
+
+#chat .chat-main .user-56005297239f1303009c88c5 .username
+{
     color: #4dc9ff !important;
 }
-
-
 
 /* Emote sizes */
 #chat .twitch-emoji.emoji
@@ -118,10 +121,15 @@
 }
 
 /* me command fix */
-#chat .chat-container .chat-messages .chat-main li.system-error { text-transform: uppercase; }
-#chat .chat-main li[class*='system']{
-    color: darkturquoise !important;
-    text-align: center;
-    border-top: darkturquoise 1px solid !important;
+#chat .chat-container .chat-messages .chat-main li.system-error
+{
+    text-transform: uppercase;
+}
+
+#chat .chat-main li[class*='system']
+{
+    color:         darkturquoise !important;
+    text-align:    center;
+    border-top:    darkturquoise 1px solid !important;
     border-bottom: darkturquoise 1px solid !important;
 }
