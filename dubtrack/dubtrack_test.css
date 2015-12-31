@@ -5,6 +5,19 @@
 #header-global #main-room-active-link[href="/join/nightblue3"] .room-name::after
 {
     content: " + MOIST";
+    color: #FF007F;
+}
+
+body
+{
+    counter-reset: queuePlacement;
+}
+
+#results_video_api .browserPlaylistItems .queue-item .description p::before
+{
+    counter-increment: queuePlacement;
+    content:           counter(queuePlacement) " - ";
+    color:             #0093ff;
 }
 
 /*
