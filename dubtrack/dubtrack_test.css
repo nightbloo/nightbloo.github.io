@@ -19,7 +19,7 @@ body
 #results_video_api .browserPlaylistItems .queue-item .description p::before
 {
     counter-increment: queuePlacement;
-    content:           counter(queuePlacement) " - ";
+    content:           counter(queuePlacement) " ";
     color:             #0093ff;
 }
 
