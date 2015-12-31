@@ -1,3 +1,4 @@
+/* Test CSS stuffs made by Larry1123 */
 
 @import url('https://nightbloo.github.io/dubtrack/dubtrack.css');
 
@@ -8,11 +9,13 @@
     color: #FF007F;
 }
 
+/* So I heard that you could not count so I'll make a counter for you */
 body
 {
     counter-reset: queuePlacement;
 }
 
+/* Well I can't count also so I'll make this thing do it... */
 #results_video_api .browserPlaylistItems .queue-item .description p::before
 {
     counter-increment: queuePlacement;
