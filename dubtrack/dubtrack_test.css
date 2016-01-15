@@ -68,7 +68,6 @@ body
     right:    2em !important;
     left:     initial !important;
     width:    20em !important;
-    z-index:  -1;
 }
 
 /* Got to be able to delete chat you know */
@@ -76,7 +75,7 @@ body
 {
     top:     0.5em !important;
     right:   1em !important;
-    z-index: -1;
+    z-index: 1;
 }
 
 /* So yea formatting is a fun thing */
