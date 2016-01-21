@@ -98,21 +98,13 @@
     padding-right: 2px;
 }
 
-#chat .chat-main .user-56005297239f1303009c88c5 .username::before
-{
-    content:       url(https://nightbloo.github.io/plug/icons/akali.png);
-    position:      relative;
-    top:           4px;
-    padding-right: 2px;
-}
-
 #chat .chat-main .user-56005297239f1303009c88c5 .username
 {
     color: #4dc9ff !important;
 }
 
 /* Emote sizes */
-#chat .twitch-emoji.emoji
+#chat .emoji
 {
     max-width:  none !important;
     max-height: 28px !important;
