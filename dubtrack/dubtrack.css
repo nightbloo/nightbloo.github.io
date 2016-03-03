@@ -1,56 +1,81 @@
 /* name colours */
 #chat .chat-main .isOwner .username,
 #chat .chat-main .isOwner .username:hover,
-#chat .chat-main .isOwner .username:visited,
-#main_avatar_room #main-user-list-room #avatar-list li.owner p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.owner p.username::after
+#chat .chat-main .isOwner .username:visited
 {
     color: #FF38CB !important;
 }
 
 #chat .chat-main .isCo-owner .username,
 #chat .chat-main .isCo-owner .username:hover,
-#chat .chat-main .isCo-owner .username:visited,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username::after
+#chat .chat-main .isCo-owner .username:visited
 {
     color: #FF007F !important;
 }
 
 #chat .chat-main .isManager .username,
 #chat .chat-main .isManager .username:hover,
-#chat .chat-main .isManager .username:visited,
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username::after
+#chat .chat-main .isManager .username:visited
 {
     color: #3083FF !important;
 }
 
 #chat .chat-main .isMod .username,
 #chat .chat-main .isMod .username:hover,
-#chat .chat-main .isMod .username:visited,
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username::after
+#chat .chat-main .isMod .username:visited
 {
     color: #3083FF !important;
 }
 
 #chat .chat-main .isVip .username,
 #chat .chat-main .isVip .username:hover,
-#chat .chat-main .isVip .username:visited,
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username::after
+#chat .chat-main .isVip .username:visited
 {
     color: #29A3A3 !important;
 }
 
 #chat .chat-main .isResident-dj .username,
 #chat .chat-main .isResident-dj .username:hover,
-#chat .chat-main .isResident-dj .username:visited,
+#chat .chat-main .isResident-dj .username:visited
+{
+    color: #33CCFF !important;
+}
+
+/* User list name colors */
+#main_avatar_room #main-user-list-room #avatar-list li.owner p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.owner p.username::after
+{
+    color: #FF38CB;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username::after
+{
+    color: #FF007F;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username::after
+{
+    color: #3083FF;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username::after
+{
+    color: #3083FF;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username::after
+{
+    color: #29A3A3;
+}
+
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username::after
 {
-    color: #33CCFF !important;
+    color: #33CCFF;
 }
 
 /* badges */
