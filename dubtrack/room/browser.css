@@ -35,13 +35,11 @@ body
 #results_video_api .browserPlaylistItems .queue-item:not(.room-queue-item)
 {
     counter-increment: userQueuePlacement;
-    content:           counter(userQueuePlacement);
 }
 
 #results_video_api .browserPlaylistItems .history-item
 {
     counter-increment: roomHistoryPlacement;
-    content:           counter(roomHistoryPlacement);
 }
 
 /* idk why but I like to be able to see that bottom bar when in the browser */

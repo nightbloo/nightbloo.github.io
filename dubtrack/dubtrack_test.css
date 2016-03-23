@@ -33,10 +33,10 @@
 
 #results_video_api .browserPlaylistItems .queue-item:not(.room-queue-item) .description p::before
 {
-    content: counter(roomQueuePlacement) " ";
+    content: counter(userQueuePlacement) " ";
 }
 
 #results_video_api .browserPlaylistItems .history-item .description p::before
 {
-    content: counter(roomQueuePlacement) " ";
+    content: counter(roomHistoryPlacement) " ";
 }
