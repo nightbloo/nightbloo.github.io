@@ -1,160 +1,42 @@
+/*
+ * Copyright 2016 Larry1123
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 /* Test CSS stuffs made by Larry1123 */
-
 @import url('https://nightbloo.github.io/dubtrack/dubtrack.css');
+@import url('https://nightbloo.github.io/dubtrack/chat/clean.css');
+@import url('https://nightbloo.github.io/dubtrack/room/browser.css');
 
 /* Shh it's ok it never left */
 #header-global #main-room-active-link[href="/join/nightblue3"] .room-name::after
 {
     content: " + MOIST";
-    color: #FF007F;
+    color:   #FF007F;
 }
 
-/* So I heard that you could not count so I'll make a counter for you */
-body
-{
-    counter-reset: queuePlacement;
-}
-
-/* Well I can't count also so I'll make this thing do it... */
+/* Ok so now that something else did the counting for us let's display what has been counted */
 #results_video_api .browserPlaylistItems .queue-item .description p::before
 {
-    counter-increment: queuePlacement;
-    content:           counter(queuePlacement) " ";
+    content: counter(roomQueuePlacement) " ";
 }
 
-/*
- * Text formats 
- * This looks a little better to me
- */
-#chat .chat-main .username
+#results_video_api .browserPlaylistItems .queue-item:not(.room-queue-item) .description p::before
 {
-    opacity:   0.7;
-    font-size: 90% !important;
-    z-index:   0;
+    content: counter(roomQueuePlacement) " ";
 }
 
-/* Let's make the text not so spacey */
-#chat .chat-main .activity-row p
+#results_video_api .browserPlaylistItems .history-item .description p::before
 {
-    line-height: 1.2;
-}
-
-/*
- * This makes sure that emotes on the last p don't get cut off by giving
- * them a little space to live
- */
-#chat .chat-main .activity-row p:last-child
-{
-    padding-bottom: 0.3em !important;
-}
-
-/* I'm not sure why someone made me have to change this but I don't like it */
-#chat .chat-main .activity-row
-{
-    padding-top: 1px !important;
-}
-
-/* So yea the image was a little too close to the top of the message */
-#chat .chat-main .image_row
-{
-    top: 0.25em !important;
-}
-
-/* Move the time info to the top right */
-#chat .chat-main .meta-info
-{
-    position: absolute;
-    top:      1.5em !important;
-    right:    2em !important;
-    left:     initial !important;
-    width:    20em !important;
-}
-
-/* Got to be able to delete chat you know */
-#chat .chat-main li .chatDelete
-{
-    top:     0.5em !important;
-    right:   1em !important;
-    z-index: 1;
-}
-
-/* So yea formatting is a fun thing */
-#chat .chat-main .chat-me-command-joined p.deleted
-{
-    -webkit-margin-after: 0 !important;
-}
-
-/* Clear up the space that the time info used before */
-#chat .chat-main li:not(.user-1)
-{
-    padding-bottom: 0 !important;
-}
-
-/* So this thing has different formatting than everything else */
-.user-1
-{
-    padding-bottom: 0.2em !important;
-}
-
-/* Them /me commands take up so much v space */
-.chat-me-command-joined
-{
-    min-height: initial !important;
-}
-
-/* That little bit of space at the bottom of the chat window was killing me */
-#chat .chat-main
-{
-    padding-bottom: 0 !important;
-}
-
-/* idk why but I like to be able to see that bottom bar when in the browser */
-@media screen and (min-width: 72em)
-{
-    #browser.animate
-    {
-        bottom: 56px;
-        bottom: 3.5rem;
-    }
-}
-
-/* So that other change makes the browser stick it's head in to the top bar let's cut it down a bit */
-@media screen and (min-width: 72em)
-{
-    #browser
-    {
-        padding-top: 1224px !important;
-        padding-top: 8.5rem !important;
-    }
-}
-
-/* Let's have some light on our sweet backgrounds and stuff */
-#browser .browser-content
-,#player-controller
-,#header-global
-,#main-menu-left
-,#main-menu-right
-,#mobile-room-menu
-,#room-list
-{
-    opacity: .95;
-}
-
-/* idk maybe someone will want to see that background even more */
-.player_container
-{
-    opacity: 0.9;
-}
-
-/*
- * A bit of formatting
- */
-#chat .chat-main li:not(.chat-welcome-message)
-{
-    border-top: rgba(0, 0, 0, 0.2) 1px dotted;
-}
-
-#chat .chat-main li:not(.chat-welcome-message):hover
-{
-    border-top-style: solid;
+    content: counter(roomQueuePlacement) " ";
 }
