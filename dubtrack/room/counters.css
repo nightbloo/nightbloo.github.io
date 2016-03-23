@@ -15,9 +15,7 @@
  */
 
 /*
- * This css tries its best to add a few things that I felt were missing.
- * It also tries it's best to fix a few things.
- * TODO find out what to do with waitlist
+ * This currently just adds the counters
  */
 
 /* So I heard that you could not count so I'll make a counter for you */
@@ -40,30 +38,4 @@ body
 #results_video_api .browserPlaylistItems .history-item
 {
     counter-increment: roomHistoryPlacement;
-}
-
-/* idk why but I like to be able to see that bottom bar when in the browser */
-@media screen and (min-width: 72em)
-{
-    #browser.animate
-    {
-        bottom: 56px;
-        bottom: 3.5rem;
-    }
-}
-
-/* So that other change makes the browser stick it's head in to the top bar let's cut it down a bit */
-@media screen and (min-width: 72em)
-{
-    #browser
-    {
-        padding-top: 1224px !important;
-        padding-top: 8.5rem !important;
-    }
-}
-
-/* Let's have some light on our sweet backgrounds and stuff */
-#browser .browser-content, #player-controller, #header-global, #main-menu-left, #main-menu-right, #mobile-room-menu, #room-list
-{
-    opacity: .9;
 }

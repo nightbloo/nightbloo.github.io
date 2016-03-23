@@ -13,10 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-/* Test CSS stuffs made by Larry1123 */
+
+/*
+ * Test CSS stuffs made by Larry1123
+ */
+
 @import url('https://nightbloo.github.io/dubtrack/dubtrack.css');
 @import url('https://nightbloo.github.io/dubtrack/chat/clean.css');
-@import url('https://nightbloo.github.io/dubtrack/room/browser.css');
+@import url('https://nightbloo.github.io/dubtrack/room/room.css');
 
 /* Shh it's ok it never left */
 #header-global #main-room-active-link[href="/join/nightblue3"] .room-name::after

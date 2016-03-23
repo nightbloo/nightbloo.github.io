@@ -110,7 +110,7 @@
  */
 #chat .chat-main li:not(.chat-welcome-message)
 {
-    border-top: rgba(0, 0, 0, 0.2) 1px dotted;
+    border-top: rgba(0, 0, 0, 0.075) 1px dotted;
 }
 
 #chat .chat-main li:not(.chat-welcome-message):hover
