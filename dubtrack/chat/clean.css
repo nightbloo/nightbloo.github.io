@@ -26,8 +26,8 @@
 #chat .chat-main .username
 {
     opacity:   0.7;
-    font-size: 90% !important;
     z-index:   0;
+    padding-bottom: 0 !important;
 }
 
 /* Let's make the text not so spacey */
