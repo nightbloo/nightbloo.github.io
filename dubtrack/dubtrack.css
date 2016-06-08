@@ -1,156 +1,79 @@
 /* name colours */
-#chat .chat-main .isOwner .username,
-#chat .chat-main .isOwner .username:hover,
-#chat .chat-main .isOwner .username:visited
-{
+.creator .username {
     color: #FF38CB !important;
 }
 
-#chat .chat-main .isCo-owner .username,
-#chat .chat-main .isCo-owner .username:hover,
-#chat .chat-main .isCo-owner .username:visited
-{
+.co-owner .username {
     color: #FF007F !important;
 }
 
-#chat .chat-main .isManager .username,
-#chat .chat-main .isManager .username:hover,
-#chat .chat-main .isManager .username:visited
-{
+.manager .username {
     color: #3083FF !important;
 }
 
-#chat .chat-main .isMod .username,
-#chat .chat-main .isMod .username:hover,
-#chat .chat-main .isMod .username:visited
-{
+.mod .username {
     color: #3083FF !important;
 }
 
-#chat .chat-main .isVip .username,
-#chat .chat-main .isVip .username:hover,
-#chat .chat-main .isVip .username:visited
-{
+.vip .username {
     color: #29A3A3 !important;
 }
 
-#chat .chat-main .isResident-dj .username,
-#chat .chat-main .isResident-dj .username:hover,
-#chat .chat-main .isResident-dj .username:visited
-{
+.resident-dj .username {
     color: #33CCFF !important;
 }
 
-/* User list name colors */
-#main_avatar_room #main-user-list-room #avatar-list li.owner p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.owner p.username::after
-{
-    color: #FF38CB;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username::after
-{
-    color: #FF007F;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username::after
-{
-    color: #3083FF;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username::after
-{
-    color: #3083FF;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username::after
-{
-    color: #29A3A3;
-}
-
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username::after
-{
-    color: #33CCFF;
-}
-
 /* badges */
-#chat .chat-main .isOwner .username::before
-{
-    content:       url(https://nightbloo.github.io/plug/icons/hostpink.png);
-    position:      relative;
-    top:           4px;
-    padding-right: 2px;
+.creator span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png) !important;
+    display: inline-block !important;
 }
 
-#chat .chat-main .isCo-owner .username::before
-{
-    content:       url(https://nightbloo.github.io/plug/icons/hostpink.png);
-    position:      relative;
-    top:           4px;
-    padding-right: 2px;
+.co-owner span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png) !important;
+    display: inline-block !important;
 }
 
-#chat .chat-main .isManager .username::before
-{
-    content:       url(https://nightbloo.github.io/plug/icons/manager.png);
-    position:      relative;
-    top:           4px;
-    padding-right: 2px;
+.manager span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/manager.png) !important;
+    display: inline-block !important;
 }
 
-#chat .chat-main .isMod .username::before
-{
-    content:       url(https://nightbloo.github.io/plug/icons/bouncer.png);
-    position:      relative;
-    top:           4px;
-    padding-right: 2px;
+.mod span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/bouncer.png) !important;
+    display: inline-block !important;
 }
 
-#chat .chat-main .isVip .username::before
-{
-    content:       url(https://nightbloo.github.io/plug/icons/vip.png);
-    position:      relative;
-    top:           4px;
-    padding-right: 2px;
+.vip span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/vip.png) !important;
+    display: inline-block !important;
 }
 
-#chat .chat-main .isResident-dj .username::before
-{
-    content:       url(https://nightbloo.github.io/plug/icons/rdj.png);
-    position:      relative;
-    top:           4px;
-    padding-right: 2px;
+.resident-dj span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/rdj.png) !important;
+    display: inline-block !important;
 }
 
-#chat .chat-main .user-56005297239f1303009c88c5 .username
-{
+#chat .chat-main .user-56005297239f1303009c88c5 .username {
     color: #4dc9ff !important;
 }
 
 /* Emote sizes */
-#chat .emoji
-{
-    max-width:  none !important;
+#chat .emoji {
+    max-width: none !important;
     max-height: 28px !important;
-    width:      auto !important;
-    height:     auto !important;
+    width: auto !important;
+    height: auto !important;
 }
 
 /* me command fix */
-#chat .chat-container .chat-messages .chat-main li.system-error
-{
+#chat .chat-container .chat-messages .chat-main li.system-error {
     text-transform: uppercase;
 }
 
-#chat .chat-main li[class*='system']
-{
-    color:         darkturquoise !important;
-    text-align:    center;
-    border-top:    darkturquoise 1px solid !important;
+#chat .chat-main li[class*='system'] {
+    color: darkturquoise !important;
+    text-align: center;
+    border-top: darkturquoise 1px solid !important;
     border-bottom: darkturquoise 1px solid !important;
 }
