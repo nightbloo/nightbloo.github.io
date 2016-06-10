@@ -1,33 +1,48 @@
 /* name colours */
-.creator .username {
+.creator .user-role,
+.creator .username
+{
     color: #FF38CB !important;
 }
 
-.co-owner .username {
+.co-owner .user-role,
+.co-owner .username
+{
     color: #FF007F !important;
 }
 
-.manager .username {
+.manager .user-role,
+.manager .username
+{
     color: #3083FF !important;
 }
 
-.mod .username {
+.mod .user-role,
+.mod .username
+{
     color: #3083FF !important;
 }
 
-.vip .username {
+.vip .user-role,
+.vip .username
+{
     color: #29A3A3 !important;
 }
 
-.resident-dj .username {
+.resident-dj .user-role,
+.resident-dj .username
+{
     color: #33CCFF !important;
 }
 
-.admin .username {
+.admin .user-role,
+.admin .username
+{
     color: #ff7e00 !important;
 }
 
-.admin .username:after {
+.admin .username:after
+{
     display: none;
 }
 
