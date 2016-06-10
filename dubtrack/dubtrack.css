@@ -1,44 +1,66 @@
 /* name colours */
-.creator .user-role,
-.creator .username
+#chat .chat-container .chat-messages .chat-main li.creator .user-role,
+#chat .chat-container .chat-messages .chat-main li.creator .username,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username
 {
-    color: #FF38CB !important;
+    color: #FF38CB;
 }
 
-.co-owner .user-role,
-.co-owner .username
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#chat .chat-container .chat-messages .chat-main li.co-owner .username,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username
 {
-    color: #FF007F !important;
+    color: #FF007F;
 }
 
-.manager .user-role,
-.manager .username
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
+#chat .chat-container .chat-messages .chat-main li.manager .username,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .username
 {
-    color: #3083FF !important;
+    color: #3083FF;
 }
 
-.mod .user-role,
-.mod .username
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
+#chat .chat-container .chat-messages .chat-main li.mod .username,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .username
 {
-    color: #3083FF !important;
+    color: #3083FF;
 }
 
-.vip .user-role,
-.vip .username
+#chat .chat-container .chat-messages .chat-main li.vip .user-role,
+#chat .chat-container .chat-messages .chat-main li.vip .username,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username
 {
-    color: #29A3A3 !important;
+    color: #29A3A3;
 }
 
-.resident-dj .user-role,
-.resident-dj .username
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
+#chat .chat-container .chat-messages .chat-main li.resident-dj .username,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username
 {
-    color: #33CCFF !important;
+    color: #33CCFF;
 }
 
-.admin .user-role,
-.admin .username
+#chat .chat-container .chat-messages .chat-main li.admin .user-role,
+#chat .chat-container .chat-messages .chat-main li.admin .username,
+#main_avatar_room #main-user-list-room #avatar-list li.admin .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.admin .username
 {
-    color: #ff7e00 !important;
+    color: #ff7e00;
+}
+
+#chat .chat-container .chat-messages .chat-main li.user-55ffae6a1564a403003f5132 .user-role,
+#chat .chat-container .chat-messages .chat-main li.user-55ffae6a1564a403003f5132 .username,
+#main_avatar_room #main-user-list-room #avatar-list li.userid-55ffae6a1564a403003f5132 .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.userid-55ffae6a1564a403003f5132 .username
+{
+    color: #caca00;
 }
 
 .admin .username:after
