@@ -23,34 +23,42 @@
     color: #33CCFF !important;
 }
 
+.admin .username {
+    color: #ff7e00 !important;
+}
+
+.admin .username:after {
+    display: none;
+}
+
 /* badges */
 .creator span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png) !important;
+    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
     display: inline-block !important;
 }
 
 .co-owner span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png) !important;
+    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
     display: inline-block !important;
 }
 
 .manager span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/manager.png) !important;
+    background-image: url(https://nightbloo.github.io/plug/icons/manager.png);
     display: inline-block !important;
 }
 
 .mod span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/bouncer.png) !important;
+    background-image: url(https://nightbloo.github.io/plug/icons/bouncer.png);
     display: inline-block !important;
 }
 
 .vip span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/vip.png) !important;
+    background-image: url(https://nightbloo.github.io/plug/icons/vip.png);
     display: inline-block !important;
 }
 
 .resident-dj span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/rdj.png) !important;
+    background-image: url(https://nightbloo.github.io/plug/icons/rdj.png);
     display: inline-block !important;
 }
 
