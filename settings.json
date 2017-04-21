@@ -25,7 +25,7 @@
         "user":                 null
     },
     "images": {
-        "background":           null,
+        "background":           "http://i.imgur.com/KuvGxMn.jpg",
         "playback":             null,
         "admin":                "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_Admin.png",
         "ambassador":           "https://cdn.bssecure.net/nc-themes/img/adGS_Ranks_BA.png",
