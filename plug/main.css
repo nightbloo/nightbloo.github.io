@@ -185,31 +185,6 @@ div.message > div.msg > div.from > span.un
     background-position: center center;
 }
 
-/* Extra non-important stuff 
-
-.id-5767704:hover span.un.clickable
-{
-    transform:  rotate3d(7, 20, 9, 360deg);
-    transition: all 3s cubic-bezier(0.31, 0, 0.11, 1);
-}
-
-.id-5767704 span.un.clickable
-{
-    transition: all 1s linear;
-}
-
-.id-5767704:hover > .msg > .from > i.icon-chat-manager
-{
-    transform:  rotateZ(180deg);
-    transition: all 1s linear;
-}
-
-.id-5767704 > .msg > .from > i.icon-chat-manager
-{
-    transition: all 1s linear;
-} */
-
-
 
 /* HerpDerp */
 
