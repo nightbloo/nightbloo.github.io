@@ -2,7 +2,7 @@
   "room": "NB3's Community",
   "author": "Stephen Hawking",
   "icon": null,
-  "css": "https://laquett.github.io/nightbloo.github.io/plug/main.css",
+  "css": "https://nightbloo.github.io/plug/main.css",
   "rules": {
     "allowAutorespond": false,
     "allowAutowoot": true,
@@ -26,7 +26,7 @@
     "user": null
   },
   "images": {
-    "background": "https://laquett.github.io/nightbloo.github.io/plug/background/nb3DJ6.png",
+    "background": "https://nightbloo.github.io/plug/background/nb3DJ6.png",
     "playback": "https://nightbloo.github.io/plug/background/nb3DJvideo.png",
     "admin": null,
     "ambassador": null,
@@ -55,6 +55,6 @@
     "snakydance": "https://nightbloo.github.io/plug/custom-emotes/snakydance.gif",
     "snakybrushy": "https://nightbloo.github.io/plug/custom-emotes/snakybrushy.gif",
     "russiandance": "https://nightbloo.github.io/plug/custom-emotes/russiandance.gif",
-    "zolcat": "https://cdn.betterttv.net/emote/58ee36e0c16464152ea8968e/1x.png"
+    "zolcat": "https://nightbloo.github.io/plug/custom-emotes/zolcat.png"
   }
 }
