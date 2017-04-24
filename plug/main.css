@@ -209,17 +209,22 @@ div.message > div.msg > div.from > span.un
     border-right: #3083FF 2px dotted;
 }
 
+.message.role-bouncer:hover,
+.emote.role-bouncer:hover
+{
+    border-left-style:  solid;
+    border-right-style: solid;
+}
+
 .message.role-manager,
-.emote.role-manager,
+.emote.role-manager
 {
     border-left:  #9552cc 2px dotted;
     border-right: #9552cc 2px dotted;
 }
 
 .message.role-manager:hover,
-.emote.role-manager:hover,
-.message.role-bouncer:hover,
-.emote.role-bouncer:hover
+.emote.role-manager:hover
 {
     border-left-style:  solid;
     border-right-style: solid;
@@ -233,7 +238,7 @@ div.message > div.msg > div.from > span.un
 }
 
 .message.role-cohost:hover,
-.emote.role-cohost:hover,
+.emote.role-cohost:hover
 {
     border-left-style:  solid;
     border-right-style: solid;
