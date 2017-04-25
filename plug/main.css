@@ -188,20 +188,22 @@ div.message > div.msg > div.from > span.un
 
 /* HerpDerp */
 
-.message.role-dj,
-.emote.role-dj
+.message.role-rdj,
+.emote.role-rdj
 {
     border-left:  #33CCFF 2px dotted;
     border-right: #33CCFF 2px dotted;
 }
 
-.message.role-dj:hover,
-.emote.role-dj:hover
+.message.role-rdj:hover,
+.emote.role-rdj:hover
 {
     border-left-style:  solid;
     border-right-style: solid;
 }
 
+.message.role-manager,
+.emote.role-manager,
 .message.role-bouncer,
 .emote.role-bouncer
 {
@@ -209,22 +211,10 @@ div.message > div.msg > div.from > span.un
     border-right: #3083FF 2px dotted;
 }
 
+.message.role-manager:hover,
+.emote.role-manager:hover,
 .message.role-bouncer:hover,
 .emote.role-bouncer:hover
-{
-    border-left-style:  solid;
-    border-right-style: solid;
-}
-
-.message.role-manager,
-.emote.role-manager
-{
-    border-left:  #9552cc 2px dotted;
-    border-right: #9552cc 2px dotted;
-}
-
-.message.role-manager:hover,
-.emote.role-manager:hover
 {
     border-left-style:  solid;
     border-right-style: solid;
@@ -233,12 +223,12 @@ div.message > div.msg > div.from > span.un
 .message.role-cohost,
 .emote.role-cohost
 {
-    border-left:  #CC3333 2px dotted;
-    border-right: #CC3333 2px dotted;
+    border-left:  #FF007F 2px dotted;
+    border-right: #FF007F 2px dotted;
 }
 
 .message.role-cohost:hover,
-.emote.role-cohost:hover
+.emote.role-cohost:hover,
 {
     border-left-style:  solid;
     border-right-style: solid;
@@ -246,8 +236,8 @@ div.message > div.msg > div.from > span.un
 
 .message.role-host.emote.role-host
 {
-    border-left:  #F2693E 2px dotted;
-    border-right: #F2693E 2px dotted;
+    border-left:  #FF007F 2px dotted;
+    border-right: #FF007F 2px dotted;
 }
 
 .message.role-host:hover,
@@ -262,7 +252,7 @@ div.message > div.msg > div.from > span.un
 .message.role-host > .msg > .text::-moz-selection,
 .emote.role-host > .msg > .text::-moz-selection
 {
-    color: #F2693E;
+    color: #FF007F;
 }
 
 .message.role-cohost > .msg > .text::selection,
@@ -270,7 +260,7 @@ div.message > div.msg > div.from > span.un
 .message.role-cohost > .msg > .text::-moz-selection,
 .emote.role-cohost > .msg > .text::-moz-selection
 {
-    color: #CC3333;
+    color: #FF007F;
 }
 
 .message.role-manager > .msg > .text::selection,
@@ -278,7 +268,7 @@ div.message > div.msg > div.from > span.un
 .message.role-manager > .msg > .text::-moz-selection,
 .emote.role-manager > .msg > .text::-moz-selection
 {
-    color: #9552CC;
+    color: #3083FF;
 }
 
 .message.role-bouncer > .msg > .text::selection,
@@ -289,10 +279,10 @@ div.message > div.msg > div.from > span.un
     color: #3083FF;
 }
 
-.message.role-dj > .msg > .text::selection,
-.emote.role-dj > .msg > .text::selection,
-.message.role-dj > .msg > .text::-moz-selection,
-.emote.role-dj > .msg > .text::-moz-selection
+.message.role-rdj > .msg > .text::selection,
+.emote.role-rdj > .msg > .text::selection,
+.message.role-rdj > .msg > .text::-moz-selection,
+.emote.role-rdj > .msg > .text::-moz-selection
 {
     color: #33CCFF;
 }
