@@ -209,13 +209,14 @@ div.message > div.msg > div.from > span.un
 }
 
 .message.role-cohost:hover,
-.emote.role-cohost:hover,
+.emote.role-cohost:hover
 {
     border-left-style:  solid;
     border-right-style: solid;
 }
 
-.message.role-host.emote.role-host
+.message.role-host,
+.emote.role-host
 {
     border-top:    #F2693E 2px dotted;
     border-left:   #F2693E 2px dotted;
