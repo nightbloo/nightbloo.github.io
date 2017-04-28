@@ -1,8 +1,8 @@
 {
   "room": "NB3's Community",
-  "author": "Stephen Hawking",
+  "author": "Laquett",
   "icon": null,
-  "css": "https://laquett.github.io/nightbloo.github.io/plug/main.css",
+  "css": "https://nightbloo.github.io/plug/main.css",
   "rules": {
     "allowAutorespond": false,
     "allowAutowoot": true,
