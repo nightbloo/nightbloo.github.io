@@ -204,8 +204,8 @@ div.message > div.msg > div.from > span.un
 .message.role-cohost,
 .emote.role-cohost
 {
-    border-left:  #C42E3B 2px dotted;
-    border-right: #C42E3B 2px dotted;
+    border-left:  #CC3333 2px dotted;
+    border-right: #CC3333 2px dotted;
 }
 
 .message.role-cohost:hover,
@@ -217,10 +217,10 @@ div.message > div.msg > div.from > span.un
 
 .message.role-host.emote.role-host
 {
-    border-top:  #F46B40 2px dotted;
-    border-left:  #F46B40 2px dotted;
-    border-bottom:   #F46B40 2px dotted;
-    border-right: #F46B40 2px dotted;
+    border-top:    #F2693E 2px dotted;
+    border-left:   #F2693E 2px dotted;
+    border-bottom: #F2693E 2px dotted;
+    border-right:  #F2693E 2px dotted;
 }
 
 .message.role-host:hover,
