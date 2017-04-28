@@ -1,35 +1,5 @@
 /* Custom Badges In Rollover */
 
-/* ItsClutch */
-#user-rollover.id-7768306 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/Clu.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-/* Larry */
-#user-rollover.id-6425524 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/wolf.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-/* Snaky */
-#user-rollover.id-6288281 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/snaky.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
 /* Domadness */
 #user-rollover.id-6385488 .badge-box > i.bdg
 {
@@ -50,44 +20,55 @@
     background-position: center center;
 }
 
-/* DREKEN */
-#user-rollover.id-3632408 .badge-box > i.bdg
+/* Laquett */
+#user-rollover.id-4093788 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/dreken.gif");
+    background-image:    url("https://laquett/github.io/nightbloo.github.io/plug/custom-badges/Laquett.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-4093788 .username:hover,
+#chat [data-cid^="4093788-"] span.un.clickable:hover {
+animation:rainbow 10s infinite;
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+
+/* NB3 */
+#user-rollover.id-6363341 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://laquett/github.io/nightbloo.github.io/plug/custom-badges/nb3.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* S4nari */
+#user-rollover.id-3828485 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://laquett/github.io/nightbloo.github.io/plug/custom-badges/s4nari.png");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
 }
 
 /* Custom Badges */
-
-/* ItsClutch */
-.id-7768306 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/Clu.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-/* Larry */
-.id-6425524 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/wolf.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-/* Snaky */
-.id-6288281 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/snaky.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
 
 /* Domadness */
 .id-6385488 > .badge-box > i.bdg
@@ -107,10 +88,28 @@
     background-position: center center;
 }
 
-/* DREKEN */
-.id-3632408 > .badge-box > i.bdg
+/* Laquett */
+.id-4093788 > .badge-box > i.bdg
 {
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/dreken.gif");
+    background-image:    url("https://laquett/github.io/nightbloo.github.io/plug/custom-badges/Laquett.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* NB3 */
+.id-6363341 > .badge-box > i.bdg
+{
+    background-image:    url("https://laquett/github.io/nightbloo.github.io/plug/custom-badges/nb3.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* S4nari */
+.id-6363341 > .badge-box > i.bdg
+{
+    background-image:    url("https://laquett/github.io/nightbloo.github.io/plug/custom-badges/s4nari.png");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -125,39 +124,11 @@ div.message > div.msg > div.from > span.un
     horizontal-align: left;
 }
 
-/* DREKEN */
-.id-3632408 > .msg > .from > i.icon-chat-subscriber
-{
-    background: url("https://nightbloo.github.io/plug/icons/dreke.png") no-repeat !important;
-}
-
-.id-6630381:not(.rsshit) > .msg > .from:before
-{
-    content: url("https://nightbloo.github.io/plug/icons/manager.png") !important;
-}
-
-.id-6630381 > .msg > .from > i.icon-chat-manager
-{
-    background: url("https://nightbloo.github.io/plug/icons/pika2.png") no-repeat !important;
-}
-
-
-.id-5502961 > .msg > .from > i.icon-chat-subscriber
-{
-    @ @ -653, 31 +639, 7 @ @ div . message > div . msg > div . from > span . un transition : all 1 s linear;
-}
-
 /* Domadness */
 
 .id-6385488 > .msg > .from > i.icon-chat-subscriber
 {
     background: url("https://nightbloo.github.io/plug/icons/dom.png") no-repeat !important;
-}
-
-/* Le Toucan */
-.id-4193885 > .msg > .from > i.icon-chat-subscriber
-{
-    background: url("https://nightbloo.github.io/plug/icons/toucan.png") no-repeat !important;
 }
 
 /* Grab, woot, meh buttons */
@@ -188,22 +159,20 @@ div.message > div.msg > div.from > span.un
 
 /* HerpDerp */
 
-.message.role-rdj,
-.emote.role-rdj
+.message.role-dj,
+.emote.role-dj
 {
     border-left:  #33CCFF 2px dotted;
     border-right: #33CCFF 2px dotted;
 }
 
-.message.role-rdj:hover,
-.emote.role-rdj:hover
+.message.role-dj:hover,
+.emote.role-dj:hover
 {
     border-left-style:  solid;
     border-right-style: solid;
 }
 
-.message.role-manager,
-.emote.role-manager,
 .message.role-bouncer,
 .emote.role-bouncer
 {
@@ -211,10 +180,22 @@ div.message > div.msg > div.from > span.un
     border-right: #3083FF 2px dotted;
 }
 
-.message.role-manager:hover,
-.emote.role-manager:hover,
 .message.role-bouncer:hover,
 .emote.role-bouncer:hover
+{
+    border-left-style:  solid;
+    border-right-style: solid;
+}
+
+.message.role-manager,
+.emote.role-manager
+{
+    border-left:  #AC76FF 2px dotted;
+    border-right: #AC76FF 2px dotted;
+}
+
+.message.role-manager:hover,
+.emote.role-manager:hover
 {
     border-left-style:  solid;
     border-right-style: solid;
@@ -223,8 +204,8 @@ div.message > div.msg > div.from > span.un
 .message.role-cohost,
 .emote.role-cohost
 {
-    border-left:  #FF007F 2px dotted;
-    border-right: #FF007F 2px dotted;
+    border-left:  #C42E3B 2px dotted;
+    border-right: #C42E3B 2px dotted;
 }
 
 .message.role-cohost:hover,
@@ -236,8 +217,10 @@ div.message > div.msg > div.from > span.un
 
 .message.role-host.emote.role-host
 {
-    border-left:  #FF007F 2px dotted;
-    border-right: #FF007F 2px dotted;
+    border-top:  #F46B40 2px dotted;
+    border-left:  #F46B40 2px dotted;
+    border-bottom:   #F46B40 2px dotted;
+    border-right: #F46B40 2px dotted;
 }
 
 .message.role-host:hover,
@@ -252,7 +235,7 @@ div.message > div.msg > div.from > span.un
 .message.role-host > .msg > .text::-moz-selection,
 .emote.role-host > .msg > .text::-moz-selection
 {
-    color: #FF007F;
+    color: #F46B40;
 }
 
 .message.role-cohost > .msg > .text::selection,
@@ -260,7 +243,7 @@ div.message > div.msg > div.from > span.un
 .message.role-cohost > .msg > .text::-moz-selection,
 .emote.role-cohost > .msg > .text::-moz-selection
 {
-    color: #FF007F;
+    color: #C42E3B;
 }
 
 .message.role-manager > .msg > .text::selection,
@@ -268,7 +251,7 @@ div.message > div.msg > div.from > span.un
 .message.role-manager > .msg > .text::-moz-selection,
 .emote.role-manager > .msg > .text::-moz-selection
 {
-    color: #3083FF;
+    color: #AC76FF;
 }
 
 .message.role-bouncer > .msg > .text::selection,
@@ -279,10 +262,10 @@ div.message > div.msg > div.from > span.un
     color: #3083FF;
 }
 
-.message.role-rdj > .msg > .text::selection,
-.emote.role-rdj > .msg > .text::selection,
-.message.role-rdj > .msg > .text::-moz-selection,
-.emote.role-rdj > .msg > .text::-moz-selection
+.message.role-dj > .msg > .text::selection,
+.emote.role-dj > .msg > .text::selection,
+.message.role-dj > .msg > .text::-moz-selection,
+.emote.role-dj > .msg > .text::-moz-selection
 {
     color: #33CCFF;
 }
