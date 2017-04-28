@@ -277,3 +277,13 @@ div.message > div.msg > div.from > span.un
 {
     color: #777f92;
 }
+
+#room .app-header
+{
+    background: #000000;
+}
+
+#footer
+{
+    background: #000000;
+}
