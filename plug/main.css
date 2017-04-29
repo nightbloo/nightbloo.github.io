@@ -107,7 +107,7 @@ animation:rainbow 10s infinite;
 }
 
 /* S4nari */
-.id-6363341 > .badge-box > i.bdg
+.id-3828485 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/s4nari.png");
     background-size:     cover;
@@ -227,7 +227,9 @@ div.message > div.msg > div.from > span.un
 .message.role-host:hover,
 .emote.role-host:hover
 {
+    border-top-style: solid;
     border-left-style:  solid;
+    border-bottom-style: solid;
     border-right-style: solid;
 }
 
