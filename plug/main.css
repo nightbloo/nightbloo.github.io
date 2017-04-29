@@ -107,7 +107,7 @@ animation:rainbow 10s infinite;
 }
 
 /* S4nari */
-.id-6363341 > .badge-box > i.bdg
+.id-3828485 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/s4nari.png");
     background-size:     cover;
@@ -209,13 +209,14 @@ div.message > div.msg > div.from > span.un
 }
 
 .message.role-cohost:hover,
-.emote.role-cohost:hover,
+.emote.role-cohost:hover
 {
     border-left-style:  solid;
     border-right-style: solid;
 }
 
-.message.role-host.emote.role-host
+.message.role-host,
+.emote.role-host
 {
     border-top:    #F2693E 2px dotted;
     border-left:   #F2693E 2px dotted;
@@ -226,7 +227,9 @@ div.message > div.msg > div.from > span.un
 .message.role-host:hover,
 .emote.role-host:hover
 {
+    border-top-style: solid;
     border-left-style:  solid;
+    border-bottom-style: solid;
     border-right-style: solid;
 }
 
