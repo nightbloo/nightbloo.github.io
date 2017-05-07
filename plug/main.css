@@ -10,11 +10,11 @@
     background-position: center center;
 }
 
-/* Leaf */
-#user-rollover.id-4178820 .badge-box > i.bdg
+/* Ene */
+#user-rollover.id-26698397 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -48,6 +48,16 @@ animation:rainbow 10s infinite;
 100% {color: #ff0080;}
 }
 
+/* Leaf */
+#user-rollover.id-4178820 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* NB3 */
 #user-rollover.id-6363341 .badge-box > i.bdg
 {
@@ -68,7 +78,28 @@ animation:rainbow 10s infinite;
     background-position: center center;
 }
 
+/* Teressaaaaa */
+#user-rollover.id-26622198 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/teressaaaaa.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Zizter/Sister */
+#user-rollover.id-26608465 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/Zizter.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* Custom Badges */
+#chat-messages .badge-box {background: none}
 
 /* Domadness */
 .id-6385488 > .badge-box > i.bdg
@@ -79,10 +110,10 @@ animation:rainbow 10s infinite;
     background-position: center center;
 }
 
-/* Leaf */
-.id-4178820 > .badge-box > i.bdg
+/* Ene */
+.id-26698397 > .badge-box > i.bdg
 {
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -92,6 +123,15 @@ animation:rainbow 10s infinite;
 .id-4093788 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/laquett.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Leaf */
+.id-4178820 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -110,6 +150,24 @@ animation:rainbow 10s infinite;
 .id-3828485 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/s4nari.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Teressaaaaa */
+.id-26622198 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/teressaaaaa.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Zizter/Sister */
+.id-26608465 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/Zizter.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -230,6 +288,20 @@ div.message > div.msg > div.from > span.un
     border-top-style: solid;
     border-left-style:  solid;
     border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+.message.role-ambassador,
+.emote.role-ambassador
+{
+    border-left:  #89BE6C 2px dotted;
+    border-right: #89BE6C 2px dotted;
+}
+
+.message.role-ambassador:hover,
+.emote.role-ambassador:hover
+{
+    border-left-style:  solid;
     border-right-style: solid;
 }
 
