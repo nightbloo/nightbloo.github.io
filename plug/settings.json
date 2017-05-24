@@ -6,7 +6,7 @@
   "rules": {
     "allowAutorespond": false,
     "allowAutowoot": true,
-    "allowAutojoin": false,
+    "allowAutojoin": true,
     "allowAutograb": true,
     "allowSmartVote": true,
     "allowEmotes": true,
