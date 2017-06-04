@@ -1,5 +1,15 @@
 /* Custom Badges In Rollover */
 
+/* BurgerIsGooo */
+#user-rollover.id-26609840 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/burgerisgooo.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* Domadness */
 #user-rollover.id-6385488 .badge-box > i.bdg
 {
@@ -15,6 +25,16 @@
 {
     border-radius:       6px;
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Kaspae */
+#user-rollover.id-26613571 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/kaspae.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -68,6 +88,26 @@ animation:rainbow 10s infinite;
     background-position: center center;
 }
 
+/* PotatoForTheWin */
+#user-rollover.id-5872022 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/potatoforthewin.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* PurpleOnix */
+#user-rollover.id-26600442 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/apurpleonix.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* S4nari */
 #user-rollover.id-3828485 .badge-box > i.bdg
 {
@@ -88,6 +128,16 @@ animation:rainbow 10s infinite;
     background-position: center center;
 }
 
+/* WindRose3 */
+#user-rollover.id-26593919 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/windrose3.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* Zizter/Sister */
 #user-rollover.id-26608465 .badge-box > i.bdg
 {
@@ -100,6 +150,15 @@ animation:rainbow 10s infinite;
 
 /* Custom Badges */
 #chat-messages .badge-box {background: none}
+
+/* BurgerIsGooo */
+.id-26609840 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/burgerisgooo.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
 
 /* Domadness */
 .id-6385488 > .badge-box > i.bdg
@@ -114,6 +173,15 @@ animation:rainbow 10s infinite;
 .id-26698397 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Kaspae */
+.id-26613571 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/kaspae.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -146,6 +214,24 @@ animation:rainbow 10s infinite;
     background-position: center center;
 }
 
+/* PotatoForTheWin */
+.id-5872022 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/potatoforthewin.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* PurpleOnix */
+.id-26600442 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/apurpleonix.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* S4nari */
 .id-3828485 > .badge-box > i.bdg
 {
@@ -159,6 +245,15 @@ animation:rainbow 10s infinite;
 .id-26622198 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/teressaaaaa.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* WindRose3 */
+.id-26593919 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/windrose3.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -187,6 +282,14 @@ div.message > div.msg > div.from > span.un
 .id-6385488 > .msg > .from > i.icon-chat-subscriber
 {
     background: url("https://nightbloo.github.io/plug/icons/dom.png") no-repeat !important;
+}
+
+/* VIP Icons */
+
+/* Kaspae */
+.id-26613571 > .msg > .from > i.icon-chat-subscriber
+{
+    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
 
 /* Grab, woot, meh buttons */
