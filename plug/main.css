@@ -465,3 +465,13 @@ div.message > div.msg > div.from > span.un
 {
     background: #000000;
 }
+
+#history-button
+{
+    background: #000000;
+}
+
+#rs-skip-button
+{
+    background: #000000 !important;
+}
