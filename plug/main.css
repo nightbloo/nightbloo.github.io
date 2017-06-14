@@ -294,6 +294,10 @@ div.message > div.msg > div.from > span.un
 
 /* Mrcl- */
 .id-13585808 > .msg > .from > i.icon-chat-dj
+{
+    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
+}
+
 .id-13585808 > #waitlist > .list > .user > .meta.is-staff > .name > i.icon-chat-dj
 {
     background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
