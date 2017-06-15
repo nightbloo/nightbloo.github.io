@@ -78,6 +78,16 @@ animation:rainbow 10s infinite;
     background-position: center center;
 }
 
+/* Mrcl- */
+#user-rollover.id-13585808 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/mrcl.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* NB3 */
 #user-rollover.id-6363341 .badge-box > i.bdg
 {
@@ -200,6 +210,15 @@ animation:rainbow 10s infinite;
 .id-4178820 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Mrcl- */
+.id-13585808 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/mrcl.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
