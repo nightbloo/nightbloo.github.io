@@ -291,7 +291,7 @@ div.message > div.msg > div.from > span.un
 {
     background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
-#waitlist.id-26613571 > .list > .user > .meta.is-staff > .name > i.icon-chat-dj
+#waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj
 {
     background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
@@ -305,7 +305,7 @@ div.message > div.msg > div.from > span.un
 {
     background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
-#waitlist.id-13585808 > .list > .user > .meta.is-staff > .name > i.icon-chat-dj
+#waitlist .list .user[data-uid="13585808"] .meta.is-staff .name .icon-chat-dj
 {
     background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
