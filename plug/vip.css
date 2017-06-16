@@ -33,3 +33,29 @@
 {
 	color: #29A3A3 !important;
 }
+
+/* VIP Border */
+
+/* Kaspae */
+#chat .cm.message.id-26613571, 
+#chat .cm.emote.id-26613571,  
+
+/* Mrcl- */
+#chat .cm.message.id-13585808, 
+#chat .cm.emote.id-13585808 
+{
+    border-left:  #29A3A3 2px dotted;
+    border-right: #29A3A3 2px dotted;
+}
+
+/* Kaspae */
+#chat .cm.message.id-26613571:hover, 
+#chat .cm.emote.id-26613571:hover, 
+
+/* Mrcl- */
+#chat .cm.message.id-13585808:hover, 
+#chat .cm.emote.id-13585808:hover
+{
+    border-left-style:  solid;
+    border-right-style: solid;
+}
