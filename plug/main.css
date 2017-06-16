@@ -30,6 +30,16 @@
     background-position: center center;
 }
 
+/* Jexi */
+#user-rollover.id-4110949 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/jexi.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* Kaspae */
 #user-rollover.id-26613571 .badge-box > i.bdg
 {
@@ -183,6 +193,15 @@ animation:rainbow 10s infinite;
 .id-26698397 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Jexi */
+.id-4110949 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/jexi.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
