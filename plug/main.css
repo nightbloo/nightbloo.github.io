@@ -108,6 +108,16 @@ animation:rainbow 10s infinite;
     background-position: center center;
 }
 
+/* Pie */
+#user-rollover.id-26073729 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/pie.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* PotatoForTheWin */
 #user-rollover.id-5872022 .badge-box > i.bdg
 {
@@ -247,6 +257,15 @@ animation:rainbow 10s infinite;
 .id-6363341 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/nb3.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Pie */
+.id-26073729 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/pie.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
