@@ -1,0 +1,61 @@
+/* VIP Icon */
+
+/* Kaspae */
+.id-26613571 > .msg > .from > i.icon-chat-dj,
+#waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj, 
+#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
+#user-lists .list.room .user.id-26613571 .icon-chat-dj, 
+
+/* Mrcl- */
+.id-13585808 > .msg > .from > i.icon-chat-dj, 
+#waitlist .list .user[data-uid="13585808"] .meta.is-staff .name .icon-chat-dj, 
+#user-rollover.id-13585808 > .info > .role > i.icon-chat-dj, 
+#user-lists .list.room .user.id-13585808 .icon-chat-dj
+{
+	background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
+}
+
+/* VIP Color */
+
+/* Kaspae */
+.id-26613571 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj + span, 
+#user-rollover.id-26613571 > .info > .role span, 
+#user-rollover.id-26613571 > .meta > .username, 
+#user-lists .list.room .user.id-26613571 .name, 
+
+/* Mrcl- */
+.id-13585808 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="13585808"] .meta.is-staff .name .icon-chat-dj + span, 
+#user-rollover.id-13585808 > .info > .role span, 
+#user-rollover.id-13585808 > .meta > .username, 
+#user-lists .list.room .user.id-13585808 .name
+{
+	color: #29A3A3 !important;
+}
+
+/* VIP Border */
+
+/* Kaspae */
+#chat .cm.message.id-26613571, 
+#chat .cm.emote.id-26613571,  
+
+/* Mrcl- */
+#chat .cm.message.id-13585808, 
+#chat .cm.emote.id-13585808 
+{
+    border-left:  #29A3A3 2px dotted;
+    border-right: #29A3A3 2px dotted;
+}
+
+/* Kaspae */
+#chat .cm.message.id-26613571:hover, 
+#chat .cm.emote.id-26613571:hover, 
+
+/* Mrcl- */
+#chat .cm.message.id-13585808:hover, 
+#chat .cm.emote.id-13585808:hover
+{
+    border-left-style:  solid;
+    border-right-style: solid;
+}

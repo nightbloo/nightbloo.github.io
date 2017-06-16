@@ -1,3 +1,5 @@
+@import url("https://nightbloo.github.io/plug/vip.css");
+
 /* Custom Badges In Rollover */
 
 /* BurgerIsGooo */
@@ -339,36 +341,6 @@ div.message > div.msg > div.from > span.un
 .id-6385488 > .msg > .from > i.icon-chat-subscriber
 {
     background: url("https://nightbloo.github.io/plug/icons/dom.png") no-repeat !important;
-}
-
-/* VIP Icons */
-
-/* Kaspae */
-.id-26613571 > .msg > .from > i.icon-chat-dj
-{
-    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
-}
-#waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj
-{
-    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
-}
-#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj
-{
-    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
-}
-
-/* Mrcl- */
-.id-13585808 > .msg > .from > i.icon-chat-dj
-{
-    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
-}
-#waitlist .list .user[data-uid="13585808"] .meta.is-staff .name .icon-chat-dj
-{
-    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
-}
-#user-rollover.id-13585808 > .info > .role > i.icon-chat-dj
-{
-    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
 
 /* Grab, woot, meh buttons */
