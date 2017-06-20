@@ -1,3 +1,24 @@
+/* VIP */
+
+/* Kaspae */
+#user-rollover.id-26613571 > .info > .role span, 
+
+/* Mrcl- */
+#user-rollover.id-13585808 > .info > .role span
+{
+    visibility: hidden;
+}
+
+/* Kaspae */
+#user-rollover.id-26613571 > .info > .role span:after, 
+
+/* Mrcl- */
+#user-rollover.id-13585808 > .info > .role span:after
+{
+    visibility: visible;
+    content:'VIP';
+}
+
 /* VIP Icon */
 
 /* Kaspae */
@@ -13,6 +34,17 @@
 #user-lists .list.room .user.id-13585808 .icon-chat-dj
 {
 	background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
+}
+
+/* VIP Icon User Rollover Fix */
+/* Kaspae */
+#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
+
+/* Mrcl- */
+#user-rollover.id-13585808 > .info > .role > i.icon-chat-dj
+{
+    margin-left: 60px;
+    position: absolute;
 }
 
 /* VIP Color */
@@ -31,7 +63,7 @@
 #user-rollover.id-13585808 > .meta > .username, 
 #user-lists .list.room .user.id-13585808 .name
 {
-	color: #29A3A3 !important;
+	color: #2cc4d1 !important;
 }
 
 /* VIP Border */
@@ -44,8 +76,8 @@
 #chat .cm.message.id-13585808, 
 #chat .cm.emote.id-13585808 
 {
-    border-left:  #29A3A3 2px dotted;
-    border-right: #29A3A3 2px dotted;
+    border-left:  #2cc4d1 2px dotted;
+    border-right: #2cc4d1 2px dotted;
 }
 
 /* Kaspae */
