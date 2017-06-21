@@ -507,6 +507,76 @@ div.message > div.msg > div.from > span.un
     color: #777f92;
 }
 
+/* Chat */
+
+/* Inline */
+
+#chat .emote {
+    min-height: 0px !important;
+    background: rgba(34, 44, 62, 0.78) !important;
+}
+
+.emote .msg .text {
+    display: inline !important;
+    padding-left: 0px !important;
+}
+
+.emote .from .un {
+    font-style: oblique;
+}
+
+.emote.role-dj .text
+{
+    color:  #33CCFF;
+}
+
+.emote.role-bouncer .text
+{
+    color:  #3083FF;
+}
+
+.emote.role-manager .text
+{
+    color:  #AC76FF;
+}
+
+.emote.role-cohost .text
+{
+    color:  #CC3333;
+}
+
+.emote.role-host .text
+{
+    color:    #F2693E;
+}
+
+.emote.role-ambassador .text
+{
+    color:  #89BE6C;
+}
+
+#chat .cm.emote .icon, 
+#chat .cm.emote .badge-box, 
+.emote .rs-chat-title, 
+.emote .rcs-user-info
+{
+    display: none !important;
+}
+
+#chat .emote .contents, 
+.emote .msg .from, 
+.emote .msg .text
+{
+    display: inline !important;
+}
+
+.emote .msg
+{
+    padding: 6px 6px 6px 16px !important;
+}
+
+/* Main */
+
 #room .app-header
 {
     background: #000000;
