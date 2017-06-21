@@ -518,7 +518,7 @@ div.message > div.msg > div.from > span.un
 
 .emote .msg .text {
     display: inline !important;
-    padding-left: 0px !important;
+    padding-left: 2px !important;
 }
 
 .emote .from .un {
