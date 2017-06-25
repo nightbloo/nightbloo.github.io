@@ -1,4 +1,11 @@
-/* VIP */
+/* VIP text in rollover */
+
+/* Burkes */ 
+#user-rollover.id-3703511 > .info > .role span:after
+{
+    visibility: visible;
+    content:' / VIP';
+}
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span, 
@@ -21,6 +28,12 @@
 
 /* VIP Icon */
 
+/* Burkes */
+.id-3703511 > .msg > .from > i.icon-chat-dj,
+#waitlist .list .user[data-uid="3703511"] .meta.is-staff .name .icon-chat-dj, 
+#user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
+#user-lists .list.room .user.id-3703511 .icon-chat-dj, 
+
 /* Kaspae */
 .id-26613571 > .msg > .from > i.icon-chat-dj,
 #waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj, 
@@ -37,6 +50,9 @@
 }
 
 /* VIP Icon User Rollover Fix */
+/* Burkes */
+#user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
+
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
 
@@ -48,6 +64,13 @@
 }
 
 /* VIP Color */
+
+/* Burkes */
+.id-3703511 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="3703511"] .meta.is-staff .name .icon-chat-dj + span, 
+#user-rollover.id-3703511 > .info > .role span, 
+#user-rollover.id-3703511 > .meta > .username, 
+#user-lists .list.room .user.id-3703511 .name, 
 
 /* Kaspae */
 .id-26613571 > .msg > .from.dj > .un, 
@@ -67,6 +90,10 @@
 }
 
 /* VIP Border */
+
+/* Burkes */
+#chat .cm.message.id-3703511, 
+#chat .cm.emote.id-3703511,  
 
 /* Kaspae */
 #chat .cm.message.id-26613571, 
@@ -93,6 +120,9 @@
 }
 
 /* VIP Inline */
+
+/* Burkes */
+.emote.id-3703511 .text, 
 
 /* Kaspae */
 .emote.id-26613571 .text, 
