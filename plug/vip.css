@@ -103,8 +103,8 @@
 #chat .cm.message.id-13585808, 
 #chat .cm.emote.id-13585808 
 {
-    border-left:  #2cc4d1 2px dotted;
-    border-right: #2cc4d1 2px dotted;
+    border-left:  #2cc4d1 3px dotted !important;
+    border-right: #2cc4d1 3px dotted !important;
 }
 
 /* Burkes */
@@ -119,8 +119,8 @@
 #chat .cm.message.id-13585808:hover, 
 #chat .cm.emote.id-13585808:hover
 {
-    border-left-style:  solid;
-    border-right-style: solid;
+    border-left-style:  solid !important;
+    border-right-style: solid !important;
 }
 
 /* VIP Inline */
@@ -134,5 +134,5 @@
 /* Mrcl- */
 .emote.id-13585808 .text
 {
-    color:  #2cc4d1;
+    color:  #2cc4d1 !important;
 }
