@@ -575,6 +575,11 @@ div.message > div.msg > div.from > span.un
     padding: 6px 6px 6px 16px !important;
 }
 
+.emote .delete-button
+ {
+    padding: 2px 7px 2px 7px !important;
+ }
+
 /* Main */
 
 #room .app-header
