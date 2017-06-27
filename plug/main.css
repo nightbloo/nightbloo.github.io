@@ -32,6 +32,16 @@
     background-position: center center;
 }
 
+/* Imanσlix */
+#user-rollover.id-5220843 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/imanolix.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* Jexi */
 #user-rollover.id-4110949 .badge-box > i.bdg
 {
@@ -205,6 +215,15 @@ animation:rainbow 10s infinite;
 .id-26698397 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+/* Imanσlix */
+.id-5220843 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/imanolix.png");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -574,6 +593,11 @@ div.message > div.msg > div.from > span.un
 {
     padding: 6px 6px 6px 16px !important;
 }
+
+.emote .delete-button
+ {
+    padding: 2px 7px 2px 7px !important;
+ }
 
 /* Main */
 

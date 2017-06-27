@@ -1,11 +1,7 @@
 /* VIP text in rollover */
 
-/* Burkes */ 
-#user-rollover.id-3703511 > .info > .role span:after
-{
-    visibility: visible;
-    content:' / VIP';
-}
+/* Imanσlix */
+#user-rollover.id-5220843 > .info > .role span, 
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span, 
@@ -15,6 +11,15 @@
 {
     visibility: hidden;
 }
+
+/* Burkes */ 
+#user-rollover.id-3703511 > .info > .role span:after
+{
+    content:' / VIP';
+}
+
+/* Imanσlix */
+#user-rollover.id-5220843 > .info > .role span:after, 
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span:after, 
@@ -34,6 +39,12 @@
 #user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
 #user-lists .list.room .user.id-3703511 .icon-chat-dj, 
 
+/* Imanσlix */
+.id-5220843 > .msg > .from > i.icon-chat-dj,
+#waitlist .list .user[data-uid="5220843"] .meta.is-staff .name .icon-chat-dj, 
+#user-rollover.id-5220843 > .info > .role > i.icon-chat-dj, 
+#user-lists .list.room .user.id-5220843 .icon-chat-dj, 
+
 /* Kaspae */
 .id-26613571 > .msg > .from > i.icon-chat-dj,
 #waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj, 
@@ -50,8 +61,12 @@
 }
 
 /* VIP Icon User Rollover Fix */
+
 /* Burkes */
 #user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
+
+/* Imanσlix */
+#user-rollover.id-5220843 > .info > .role > i.icon-chat-dj, 
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
@@ -71,6 +86,13 @@
 #user-rollover.id-3703511 > .info > .role span, 
 #user-rollover.id-3703511 > .meta > .username, 
 #user-lists .list.room .user.id-3703511 .name, 
+
+/* Imanσlix */
+.id-5220843 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="5220843"] .meta.is-staff .name .icon-chat-dj + span, 
+#user-rollover.id-5220843 > .info > .role span, 
+#user-rollover.id-5220843 > .meta > .username, 
+#user-lists .list.room .user.id-5220843 .name, 
 
 /* Kaspae */
 .id-26613571 > .msg > .from.dj > .un, 
@@ -95,6 +117,10 @@
 #chat .cm.message.id-3703511, 
 #chat .cm.emote.id-3703511,  
 
+/* Imanσlix */
+#chat .cm.message.id-5220843, 
+#chat .cm.emote.id-5220843,  
+
 /* Kaspae */
 #chat .cm.message.id-26613571, 
 #chat .cm.emote.id-26613571,  
@@ -103,13 +129,17 @@
 #chat .cm.message.id-13585808, 
 #chat .cm.emote.id-13585808 
 {
-    border-left:  #2cc4d1 2px dotted;
-    border-right: #2cc4d1 2px dotted;
+    border-left:  #2cc4d1 2px dotted !important;
+    border-right: #2cc4d1 2px dotted !important;
 }
 
 /* Burkes */
 #chat .cm.message.id-3703511:hover, 
 #chat .cm.emote.id-3703511:hover,  
+
+/* Imanσlix */
+#chat .cm.message.id-5220843:hover, 
+#chat .cm.emote.id-5220843:hover,  
 
 /* Kaspae */
 #chat .cm.message.id-26613571:hover, 
@@ -119,8 +149,8 @@
 #chat .cm.message.id-13585808:hover, 
 #chat .cm.emote.id-13585808:hover
 {
-    border-left-style:  solid;
-    border-right-style: solid;
+    border-left-style:  solid !important;
+    border-right-style: solid !important;
 }
 
 /* VIP Inline */
@@ -128,11 +158,14 @@
 /* Burkes */
 .emote.id-3703511 .text, 
 
+/* Imanσlix */
+.emote.id-5220843 .text, 
+
 /* Kaspae */
 .emote.id-26613571 .text, 
 
 /* Mrcl- */
 .emote.id-13585808 .text
 {
-    color:  #2cc4d1;
+    color:  #2cc4d1 !important;
 }
