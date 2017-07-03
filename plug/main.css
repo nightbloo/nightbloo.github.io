@@ -254,6 +254,14 @@ div.message > div.msg > div.from > span.un
     padding: 2px 7px 2px 7px !important;
 }
 
+#chat .welcome {
+    color: #27b2e9;
+    border-top:    #27b2e9 2px dotted;
+    border-left:   #27b2e9 2px dotted;
+    border-bottom: #27b2e9 2px dotted;
+    border-right:  #27b2e9 2px dotted;
+}
+
 #chat .emote, 
 #chat .mention, 
 #chat .message, 
