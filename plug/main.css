@@ -229,6 +229,10 @@ div.message > div.msg > div.from > span.un
     color:  #89BE6C;
 }
 
+#chat .cm:nth-child(2n+1) {
+	background-color: #0d0f13;
+}
+
 #chat .cm.emote .icon, 
 #chat .cm.emote .badge-box, 
 .emote .rs-chat-title, 
@@ -260,6 +264,11 @@ div.message > div.msg > div.from > span.un
     border-left:   #27b2e9 2px dotted;
     border-bottom: #27b2e9 2px dotted;
     border-right:  #27b2e9 2px dotted;
+}
+
+#chat .log {
+	background: rgba(20, 25, 34, 0.78) !important;
+	box-shadow: 0 0 0 1px #19222d;
 }
 
 #user-rollover.id-4093788 .username:hover,
