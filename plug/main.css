@@ -254,6 +254,19 @@ div.message > div.msg > div.from > span.un
     padding: 2px 7px 2px 7px !important;
 }
 
+#chat .emote, 
+#chat .mention, 
+#chat .message, 
+#chat .moderation, 
+#chat .skip, 
+#chat .system, 
+#chat .update, 
+#chat .welcome 
+{
+	width: initial !important;
+	overflow: hidden;
+}
+
 #user-rollover.id-4093788 .username:hover,
 #chat [data-cid^="4093788-"] span.un.clickable:hover
 {
