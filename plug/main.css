@@ -2,6 +2,16 @@
 
 /* Custom Badges In Rollover */
 
+/* Ash */
+#user-rollover.id-27010676 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ash.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 /* BurgerIsGooo */
 #user-rollover.id-26609840 .badge-box > i.bdg
 {
@@ -192,6 +202,15 @@ animation:rainbow 10s infinite;
 
 /* Custom Badges */
 #chat-messages .badge-box {background: none}
+
+/* Ash */
+.id-27010676 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ash.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
 
 /* BurgerIsGooo */
 .id-26609840 > .badge-box > i.bdg
