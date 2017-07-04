@@ -1,0 +1,201 @@
+/* Custom Badges */
+
+/* General */
+#user-rollover .info .badge-box, 
+#chat-messages .badge-box
+{
+	background:          none !important;
+	background-size:     cover !important;
+	background-repeat:   no-repeat !important;
+	background-position: center center !important;
+	width:               100% !important;
+	height:              100% !important;
+}
+
+/* Ash */
+#user-rollover.id-27010676 .badge-box > i.bdg
+.id-27010676 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ash.jpg");
+}
+
+/* BurgerIsGooo */
+#user-rollover.id-26609840 .badge-box > i.bdg
+.id-26609840 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/burgerisgooo.gif");
+}
+
+/* Domadness */
+#user-rollover.id-6385488 .badge-box > i.bdg
+.id-6385488 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/Dom.png");
+}
+
+/* Ene */
+#user-rollover.id-26698397 .badge-box > i.bdg
+.id-26698397 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
+}
+
+/* Imanslix */
+#user-rollover.id-5220843 .badge-box > i.bdg
+.id-5220843 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/imanolix.png");
+}
+
+/* Jexi */
+#user-rollover.id-4110949 .badge-box > i.bdg
+.id-4110949 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/jexi.gif");
+}
+
+/* Kaspae */
+#user-rollover.id-26613571 .badge-box > i.bdg
+.id-26613571 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/kaspae.gif");
+}
+
+/* Laquett */
+#user-rollover.id-4093788 .badge-box > i.bdg
+.id-4093788 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/laquett.png");
+}
+
+/* Leaf */
+#user-rollover.id-4178820 .badge-box > i.bdg
+.id-4178820 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
+}
+
+/* Mrcl- */
+#user-rollover.id-13585808 .badge-box > i.bdg
+.id-13585808 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/mrcl.gif");
+}
+
+/* NB3 */
+#user-rollover.id-6363341 .badge-box > i.bdg
+.id-6363341 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/nb3.png");
+}
+
+/* Pie */
+#user-rollover.id-26073729 .badge-box > i.bdg
+.id-26073729 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/pie.jpg");
+}
+
+/* PotatoForTheWin */
+#user-rollover.id-5872022 .badge-box > i.bdg
+.id-5872022 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/potatoforthewin.gif");
+}
+
+/* PurpleOnix */
+#user-rollover.id-26600442 .badge-box > i.bdg
+.id-26600442 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/apurpleonix.jpg");
+}
+
+/* S4nari */
+#user-rollover.id-3828485 .badge-box > i.bdg
+.id-3828485 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/s4nari.png");
+}
+
+/* Teressaaaaa */
+#user-rollover.id-26622198 .badge-box > i.bdg
+.id-26622198 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/teressaaaaa.gif");
+}
+
+/* WindRose3 */
+#user-rollover.id-26593919 .badge-box > i.bdg
+.id-26593919 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/windrose3.jpg");
+}
+
+/* Zizter/Sister */
+#user-rollover.id-26608465 .badge-box > i.bdg
+.id-26608465 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/Zizter.gif");
+}
+
+
+/* Hover */
+
+/* Ash */
+.id-27010676 > .badge-box:hover,
+
+/* BurgerIsGooo */
+.id-26609840 > .badge-box:hover,
+
+/* Domadness */
+.id-6385488 > .badge-box:hover,
+
+/* Ene */
+.id-26698397 > .badge-box:hover,
+
+/* Imanslix */
+.id-5220843 > .badge-box:hover,
+
+/* Jexi */
+.id-4110949 > .badge-box:hover,
+
+/* Kaspae */
+.id-26613571 > .badge-box:hover,
+
+/* Laquett */
+.id-4093788 > .badge-box:hover,
+
+/* Leaf */
+.id-4178820 > .badge-box:hover,
+
+/* Mrcl- */
+.id-13585808 > .badge-box:hover,
+
+/* NB3 */
+.id-6363341 > .badge-box:hover,
+
+/* Pie */
+.id-26073729 > .badge-box:hover,
+
+/* PotatoForTheWin */
+.id-5872022 > .badge-box:hover,
+
+/* PurpleOnix */
+.id-26600442 > .badge-box:hover,
+
+/* S4nari */
+.id-3828485 > .badge-box:hover,
+
+/* Teressaaaaa */
+.id-26622198 > .badge-box:hover,
+
+/* WindRose3 */
+.id-26593919 > .badge-box:hover,
+
+/* Zizter/Sister */
+.id-26608465 > .badge-box:hover
+{
+	width: 65px;
+	height: 65px;
+	transition: 0.4s;
+}
