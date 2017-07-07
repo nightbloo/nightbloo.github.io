@@ -271,23 +271,35 @@ div.message > div.msg > div.from > span.un
 	box-shadow: 0 0 0 1px #19222d;
 }
 
+#chat .cm 
+{
+	-webkit-animation: fadein 1s;
+	-moz-animation: fadein 1s;
+	-ms-animation: fadein 1s;
+	-o-animation: fadein 1s;
+	animation: fadein 1s;
+}
+
+#chat .emote,
+#chat .mention,
+#chat .message,
+#chat .moderation,
+#chat .skip,
+#chat .system, 
+#chat .update,
+#chat .welcome
+{
+	-webkit-animation: fadein 1s;
+	-moz-animation: fadein 1s;
+	-ms-animation: fadein 1s;
+	-o-animation: fadein 1s;
+	animation: fadein 1s;
+}
+
 #user-rollover.id-4093788 .username:hover,
 #chat [data-cid^="4093788-"] span.un.clickable:hover
 {
 	animation: rainbow 10s infinite;
-}
-@keyframes rainbow {
-	0% {color: #ff0000;}
-	10% {color: #ff8000;}
-	20% {color: #ffff00;}
-	30% {color: #80ff00;}
-	40% {color: #00ff00;}
-	50% {color: #00ff80;}
-	60% {color: #00ffff;}
-	70% {color: #0080ff;}
-	80% {color: #0000ff;}
-	90% {color: #8000ff;}
-	100% {color: #ff0080;}
 }
 
 /* Main */
@@ -310,4 +322,50 @@ div.message > div.msg > div.from > span.un
 #rs-skip-button
 {
     background: #000000 !important;
+}
+
+/* Animations */
+
+@keyframes rainbow {
+	0% {color: #ff0000;}
+	10% {color: #ff8000;}
+	20% {color: #ffff00;}
+	30% {color: #80ff00;}
+	40% {color: #00ff00;}
+	50% {color: #00ff80;}
+	60% {color: #00ffff;}
+	70% {color: #0080ff;}
+	80% {color: #0000ff;}
+	90% {color: #8000ff;}
+	100% {color: #ff0080;}
+}
+
+@keyframes fadein
+{
+    from {opacity: 0;};
+    to {opacity: 1;};
+}
+
+@-moz-keyframes fadein
+{
+    from {opacity: 0;};
+    to {opacity: 1;};
+}
+
+@-webkit-keyframes fadein
+{
+    from {opacity: 0;};
+    to {opacity: 1;};
+}
+
+@-ms-keyframes fadein
+{
+    from {opacity: 0;};
+    to {opacity: 1;};
+}
+
+@-o-keyframes fadein
+{
+    from {opacity: 0;};
+    to {opacity: 1;};
 }
