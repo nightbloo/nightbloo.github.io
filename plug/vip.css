@@ -4,7 +4,13 @@
 #user-rollover.id-5220843 > .info > .role span, 
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role span
+#user-rollover.id-26613571 > .info > .role span, 
+
+/* Oaers */
+#user-rollover.id-11508127 > .info > .role span, 
+
+/* Rufee */
+#user-rollover.id-26601230 > .info > .role span
 {
     visibility: hidden;
 }
@@ -19,7 +25,13 @@
 #user-rollover.id-5220843 > .info > .role span:after, 
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role span:after
+#user-rollover.id-26613571 > .info > .role span:after, 
+
+/* Oaers */
+#user-rollover.id-11508127 > .info > .role span:after, 
+
+/* Rufee */
+#user-rollover.id-26601230 > .info > .role span:after
 {
     visibility: visible;
     content:'VIP';
@@ -43,7 +55,19 @@
 .id-26613571 > .msg > .from > i.icon-chat-dj,
 #waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj, 
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-26613571 .icon-chat-dj
+#user-lists .list.room .user.id-26613571 .icon-chat-dj, 
+
+/* Oaers */
+.id-11508127 > .msg > .from > i.icon-chat-dj,
+#waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj, 
+#user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
+#user-lists .list.room .user.id-11508127 .icon-chat-dj, 
+
+/* Rufee */
+.id-26601230 > .msg > .from > i.icon-chat-dj,
+#waitlist .list .user[data-uid="26601230"] .meta.is-staff .name .icon-chat-dj, 
+#user-rollover.id-26601230 > .info > .role > i.icon-chat-dj, 
+#user-lists .list.room .user.id-26601230 .icon-chat-dj
 {
 	background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
@@ -57,7 +81,13 @@
 #user-rollover.id-5220843 > .info > .role > i.icon-chat-dj, 
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj
+#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
+
+/* Oaers */
+#user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
+
+/* Rufee */
+#user-rollover.id-26601230 > .info > .role > i.icon-chat-dj
 {
     margin-left: 60px;
     position: absolute;
@@ -84,7 +114,21 @@
 #waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj + span, 
 #user-rollover.id-26613571 > .info > .role span, 
 #user-rollover.id-26613571 > .meta > .username, 
-#user-lists .list.room .user.id-26613571 .name
+#user-lists .list.room .user.id-26613571 .name, 
+
+/* Oaers */
+.id-11508127 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj + span, 
+#user-rollover.id-11508127 > .info > .role span, 
+#user-rollover.id-11508127 > .meta > .username, 
+#user-lists .list.room .user.id-11508127 .name, 
+
+/* Rufee */
+.id-26601230 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="26601230"] .meta.is-staff .name .icon-chat-dj + span, 
+#user-rollover.id-26601230 > .info > .role span, 
+#user-rollover.id-26601230 > .meta > .username, 
+#user-lists .list.room .user.id-26601230 .name
 {
 	color: #2cc4d1 !important;
 }
@@ -97,11 +141,19 @@
 
 /* Imanσlix */
 #chat .cm.message.id-5220843, 
-#chat .cm.emote.id-5220843,  
+#chat .cm.emote.id-5220843, 
 
 /* Kaspae */
 #chat .cm.message.id-26613571, 
-#chat .cm.emote.id-26613571
+#chat .cm.emote.id-26613571, 
+
+/* Oaers */
+#chat .cm.message.id-11508127, 
+#chat .cm.emote.id-11508127, 
+
+/* Rufee */
+#chat .cm.message.id-26601230, 
+#chat .cm.emote.id-26601230
 {
     border-left:  #2cc4d1 2px dotted !important;
     border-right: #2cc4d1 2px dotted !important;
@@ -117,7 +169,15 @@
 
 /* Kaspae */
 #chat .cm.message.id-26613571:hover, 
-#chat .cm.emote.id-26613571:hover
+#chat .cm.emote.id-26613571:hover, 
+
+/* Oaers */
+#chat .cm.message.id-11508127:hover, 
+#chat .cm.emote.id-11508127:hover, 
+
+/* Rufee */
+#chat .cm.message.id-26601230:hover, 
+#chat .cm.emote.id-26601230:hover
 {
     border-left-style:  solid !important;
     border-right-style: solid !important;
@@ -132,7 +192,13 @@
 .emote.id-5220843 .text, 
 
 /* Kaspae */
-.emote.id-26613571 .text
+.emote.id-26613571 .text, 
+
+/* Oaers */
+.emote.id-11508127 .text, 
+
+/* Rufee */
+.emote.id-26601230 .text
 {
     color:  #2cc4d1 !important;
 }
