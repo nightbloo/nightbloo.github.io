@@ -306,7 +306,11 @@ div.message > div.msg > div.from > span.un
 
 #room .app-header,
 #footer,
-#history-button,
+#history-button
+{
+    background: #000000;
+}
+
 #rs-skip-button
 {
     background: #000000 !important;
