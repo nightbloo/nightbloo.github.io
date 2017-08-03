@@ -6,9 +6,6 @@
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span, 
 
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role span, 
-
 /* Rufee */
 #user-rollover.id-26601230 > .info > .role span
 {
@@ -26,9 +23,6 @@
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span:after, 
-
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role span:after, 
 
 /* Rufee */
 #user-rollover.id-26601230 > .info > .role span:after
@@ -57,12 +51,6 @@
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
 #user-lists .list.room .user.id-26613571 .icon-chat-dj, 
 
-/* Oaers */
-.id-11508127 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-11508127 .icon-chat-dj, 
-
 /* Rufee */
 .id-26601230 > .msg > .from > i.icon-chat-dj,
 #waitlist .list .user[data-uid="26601230"] .meta.is-staff .name .icon-chat-dj, 
@@ -82,9 +70,6 @@
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
-
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
 
 /* Rufee */
 #user-rollover.id-26601230 > .info > .role > i.icon-chat-dj
@@ -116,13 +101,6 @@
 #user-rollover.id-26613571 > .meta > .username, 
 #user-lists .list.room .user.id-26613571 .name, 
 
-/* Oaers */
-.id-11508127 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-11508127 > .info > .role span, 
-#user-rollover.id-11508127 > .meta > .username, 
-#user-lists .list.room .user.id-11508127 .name, 
-
 /* Rufee */
 .id-26601230 > .msg > .from.dj > .un, 
 #waitlist .list .user[data-uid="26601230"] .meta.is-staff .name .icon-chat-dj + span, 
@@ -147,10 +125,6 @@
 #chat .cm.message.id-26613571, 
 #chat .cm.emote.id-26613571, 
 
-/* Oaers */
-#chat .cm.message.id-11508127, 
-#chat .cm.emote.id-11508127, 
-
 /* Rufee */
 #chat .cm.message.id-26601230, 
 #chat .cm.emote.id-26601230
@@ -171,10 +145,6 @@
 #chat .cm.message.id-26613571:hover, 
 #chat .cm.emote.id-26613571:hover, 
 
-/* Oaers */
-#chat .cm.message.id-11508127:hover, 
-#chat .cm.emote.id-11508127:hover, 
-
 /* Rufee */
 #chat .cm.message.id-26601230:hover, 
 #chat .cm.emote.id-26601230:hover
@@ -193,9 +163,6 @@
 
 /* Kaspae */
 .emote.id-26613571 .text, 
-
-/* Oaers */
-.emote.id-11508127 .text, 
 
 /* Rufee */
 .emote.id-26601230 .text
