@@ -1,8 +1,5 @@
 /* VIP text in rollover */
 
-/* Imanσlix */
-#user-rollover.id-5220843 > .info > .role span, 
-
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span, 
 
@@ -17,9 +14,6 @@
 {
     content:' / VIP';
 }
-
-/* Imanσlix */
-#user-rollover.id-5220843 > .info > .role span:after, 
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span:after, 
@@ -38,12 +32,6 @@
 #waitlist .list .user[data-uid="3703511"] .meta.is-staff .name .icon-chat-dj, 
 #user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
 #user-lists .list.room .user.id-3703511 .icon-chat-dj, 
-
-/* Imanσlix */
-.id-5220843 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="5220843"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-5220843 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-5220843 .icon-chat-dj, 
 
 /* Kaspae */
 .id-26613571 > .msg > .from > i.icon-chat-dj,
@@ -65,9 +53,6 @@
 /* Burkes */
 #user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
 
-/* Imanσlix */
-#user-rollover.id-5220843 > .info > .role > i.icon-chat-dj, 
-
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
 
@@ -86,13 +71,6 @@
 #user-rollover.id-3703511 > .info > .role span, 
 #user-rollover.id-3703511 > .meta > .username, 
 #user-lists .list.room .user.id-3703511 .name, 
-
-/* Imanσlix */
-.id-5220843 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="5220843"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-5220843 > .info > .role span, 
-#user-rollover.id-5220843 > .meta > .username, 
-#user-lists .list.room .user.id-5220843 .name, 
 
 /* Kaspae */
 .id-26613571 > .msg > .from.dj > .un, 
@@ -117,10 +95,6 @@
 #chat .cm.message.id-3703511, 
 #chat .cm.emote.id-3703511,  
 
-/* Imanσlix */
-#chat .cm.message.id-5220843, 
-#chat .cm.emote.id-5220843, 
-
 /* Kaspae */
 #chat .cm.message.id-26613571, 
 #chat .cm.emote.id-26613571, 
@@ -136,10 +110,6 @@
 /* Burkes */
 #chat .cm.message.id-3703511:hover, 
 #chat .cm.emote.id-3703511:hover,  
-
-/* Imanσlix */
-#chat .cm.message.id-5220843:hover, 
-#chat .cm.emote.id-5220843:hover,  
 
 /* Kaspae */
 #chat .cm.message.id-26613571:hover, 
@@ -157,9 +127,6 @@
 
 /* Burkes */
 .emote.id-3703511 .text, 
-
-/* Imanσlix */
-.emote.id-5220843 .text, 
 
 /* Kaspae */
 .emote.id-26613571 .text, 
