@@ -305,10 +305,19 @@ div.message > div.msg > div.from > span.un
 /* Main */
 
 #room .app-header,
+#app-menu,
+#app-menu .list,
 #footer,
 #history-button
 {
     background: #000000;
+}
+
+#app-menu .list,
+#app-menu .list a,
+#app-menu .list a:visited
+{
+    color: #ffffff;
 }
 
 #rs-skip-button
