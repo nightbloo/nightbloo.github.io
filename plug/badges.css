@@ -38,6 +38,13 @@
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
 }
 
+/* iHook */
+#user-rollover.id-26603056 .badge-box > i.bdg,
+.id-26603056 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ihook.gif");
+}
+
 /* Imanslix */
 #user-rollover.id-5220843 .badge-box > i.bdg,
 .id-5220843 > .badge-box > i.bdg
