@@ -1,10 +1,7 @@
 /* VIP text in rollover */
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role span, 
-
-/* Rufee */
-#user-rollover.id-26601230 > .info > .role span
+#user-rollover.id-26613571 > .info > .role span
 {
     visibility: hidden;
 }
@@ -16,10 +13,7 @@
 }
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role span:after, 
-
-/* Rufee */
-#user-rollover.id-26601230 > .info > .role span:after
+#user-rollover.id-26613571 > .info > .role span:after
 {
     visibility: visible;
     content:'VIP';
@@ -37,13 +31,7 @@
 .id-26613571 > .msg > .from > i.icon-chat-dj,
 #waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj, 
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-26613571 .icon-chat-dj, 
-
-/* Rufee */
-.id-26601230 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="26601230"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-26601230 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-26601230 .icon-chat-dj
+#user-lists .list.room .user.id-26613571 .icon-chat-dj
 {
 	background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
@@ -54,10 +42,7 @@
 #user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
-
-/* Rufee */
-#user-rollover.id-26601230 > .info > .role > i.icon-chat-dj
+#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj
 {
     margin-left: 60px;
     position: absolute;
@@ -77,14 +62,7 @@
 #waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj + span, 
 #user-rollover.id-26613571 > .info > .role span, 
 #user-rollover.id-26613571 > .meta > .username, 
-#user-lists .list.room .user.id-26613571 .name, 
-
-/* Rufee */
-.id-26601230 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="26601230"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-26601230 > .info > .role span, 
-#user-rollover.id-26601230 > .meta > .username, 
-#user-lists .list.room .user.id-26601230 .name
+#user-lists .list.room .user.id-26613571 .name
 {
 	color: #2cc4d1 !important;
 }
@@ -97,11 +75,7 @@
 
 /* Kaspae */
 #chat .cm.message.id-26613571, 
-#chat .cm.emote.id-26613571, 
-
-/* Rufee */
-#chat .cm.message.id-26601230, 
-#chat .cm.emote.id-26601230
+#chat .cm.emote.id-26613571
 {
     border-left:  #2cc4d1 2px dotted !important;
     border-right: #2cc4d1 2px dotted !important;
@@ -113,11 +87,7 @@
 
 /* Kaspae */
 #chat .cm.message.id-26613571:hover, 
-#chat .cm.emote.id-26613571:hover, 
-
-/* Rufee */
-#chat .cm.message.id-26601230:hover, 
-#chat .cm.emote.id-26601230:hover
+#chat .cm.emote.id-26613571:hover
 {
     border-left-style:  solid !important;
     border-right-style: solid !important;
@@ -129,10 +99,7 @@
 .emote.id-3703511 .text, 
 
 /* Kaspae */
-.emote.id-26613571 .text, 
-
-/* Rufee */
-.emote.id-26601230 .text
+.emote.id-26613571 .text
 {
     color:  #2cc4d1 !important;
 }
