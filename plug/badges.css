@@ -94,6 +94,13 @@
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/nb3.png");
 }
 
+/* N U T */
+#user-rollover.id-4111014 .badge-box > i.bdg,
+.id-4111014 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/nut.gif");
+}
+
 /* oaers */
 #user-rollover.id-11508127 .badge-box > i.bdg,
 .id-11508127 > .badge-box > i.bdg
@@ -134,6 +141,13 @@
 .id-3828485 > .badge-box > i.bdg
 {
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/s4nari.png");
+}
+
+/* Soriosh */
+#user-rollover.id-26583171 .badge-box > i.bdg,
+.id-26583171 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/soriosh.jpg");
 }
 
 /* Teressaaaaa */
