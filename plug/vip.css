@@ -3,9 +3,6 @@
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span, 
 
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role span, 
-
 /* Pie */
 #user-rollover.id-26073729 > .info > .role span
 {
@@ -14,9 +11,6 @@
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span:after, 
-
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role span:after, 
 
 /* Pie */
 #user-rollover.id-26073729 > .info > .role span:after
@@ -45,12 +39,6 @@
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
 #user-lists .list.room .user.id-26613571 .icon-chat-dj, 
 
-/* Oaers */
-.id-11508127 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-11508127 .icon-chat-dj, 
-
 /* Pie */
 .id-26073729 > .msg > .from > i.icon-chat-dj,
 #waitlist .list .user[data-uid="26073729"] .meta.is-staff .name .icon-chat-dj, 
@@ -67,9 +55,6 @@
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
-
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
 
 /* Pie */
 #user-rollover.id-26073729 > .info > .role > i.icon-chat-dj
@@ -94,13 +79,6 @@
 #user-rollover.id-26613571 > .meta > .username, 
 #user-lists .list.room .user.id-26613571 .name, 
 
-/* Oaers */
-.id-11508127 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-11508127 > .info > .role span, 
-#user-rollover.id-11508127 > .meta > .username, 
-#user-lists .list.room .user.id-11508127 .name, 
-
 /* Pie */
 .id-26073729 > .msg > .from.dj > .un, 
 #waitlist .list .user[data-uid="26073729"] .meta.is-staff .name .icon-chat-dj + span, 
@@ -121,10 +99,6 @@
 #chat .cm.message.id-26613571, 
 #chat .cm.emote.id-26613571, 
 
-/* Oaers */
-#chat .cm.message.id-11508127, 
-#chat .cm.emote.id-11508127, 
-
 /* Pie */
 #chat .cm.message.id-26073729, 
 #chat .cm.emote.id-26073729
@@ -141,10 +115,6 @@
 #chat .cm.message.id-26613571:hover, 
 #chat .cm.emote.id-26613571:hover, 
 
-/* Oaers */
-#chat .cm.message.id-11508127:hover, 
-#chat .cm.emote.id-11508127:hover, 
-
 /* Pie */
 #chat .cm.message.id-26073729:hover, 
 #chat .cm.emote.id-26073729:hover
@@ -160,9 +130,6 @@
 
 /* Kaspae */
 .emote.id-26613571 .text, 
-
-/* Oaers */
-.emote.id-11508127 .text, 
 
 /* Pie */
 .emote.id-26073729 .text
