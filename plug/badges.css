@@ -66,6 +66,13 @@
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/kaspae.gif");
 }
 
+/* killer0wave */
+#user-rollover.id-27677457 .badge-box > i.bdg,
+.id-27677457 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/killer0wave.gif");
+}
+
 /* Laquett */
 #user-rollover.id-4093788 .badge-box > i.bdg,
 .id-4093788 > .badge-box > i.bdg

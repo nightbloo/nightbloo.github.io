@@ -3,6 +3,9 @@
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span, 
 
+/* killer0wave */
+#user-rollover.id-27677457 > .info > .role span, 
+
 /* Oaers */
 #user-rollover.id-11508127 > .info > .role span, 
 
@@ -17,6 +20,9 @@
 
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role span:after, 
+
+/* killer0wave */
+#user-rollover.id-27677457 > .info > .role span:after, 
 
 /* Oaers */
 #user-rollover.id-11508127 > .info > .role span:after, 
@@ -51,6 +57,12 @@
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
 #user-lists .list.room .user.id-26613571 .icon-chat-dj, 
 
+/* killer0wave */
+.id-27677457 > .msg > .from > i.icon-chat-dj,
+#waitlist .list .user[data-uid="27677457"] .meta.is-staff .name .icon-chat-dj, 
+#user-rollover.id-27677457 > .info > .role > i.icon-chat-dj, 
+#user-lists .list.room .user.id-27677457 .icon-chat-dj, 
+
 /* Oaers */
 .id-11508127 > .msg > .from > i.icon-chat-dj,
 #waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj, 
@@ -80,6 +92,9 @@
 /* Kaspae */
 #user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
 
+/* killer0wave */
+#user-rollover.id-27677457 > .info > .role > i.icon-chat-dj,
+
 /* Oaers */
 #user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
 
@@ -108,6 +123,13 @@
 #user-rollover.id-26613571 > .info > .role span, 
 #user-rollover.id-26613571 > .meta > .username, 
 #user-lists .list.room .user.id-26613571 .name, 
+
+/* killer0wave */
+.id-27677457 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="27677457"] .meta.is-staff .name .icon-chat-dj + span, 
+#user-rollover.id-27677457 > .info > .role span, 
+#user-rollover.id-27677457 > .meta > .username, 
+#user-lists .list.room .user.id-27677457 .name, 
 
 /* Oaers */
 .id-11508127 > .msg > .from.dj > .un, 
@@ -143,6 +165,10 @@
 #chat .cm.message.id-26613571, 
 #chat .cm.emote.id-26613571, 
 
+/* killer0wave */
+#chat .cm.message.id-27677457, 
+#chat .cm.emote.id-27677457, 
+
 /* Oaers */
 #chat .cm.message.id-11508127, 
 #chat .cm.emote.id-11508127, 
@@ -167,6 +193,10 @@
 #chat .cm.message.id-26613571:hover, 
 #chat .cm.emote.id-26613571:hover, 
 
+/* killer0wave */
+#chat .cm.message.id-27677457:hover, 
+#chat .cm.emote.id-27677457:hover, 
+
 /* Oaers */
 #chat .cm.message.id-11508127:hover, 
 #chat .cm.emote.id-11508127:hover, 
@@ -190,6 +220,9 @@
 
 /* Kaspae */
 .emote.id-26613571 .text, 
+
+/* killer0wave */
+.emote.id-27677457 .text, 
 
 /* Oaers */
 .emote.id-11508127 .text, 
