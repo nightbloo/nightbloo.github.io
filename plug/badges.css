@@ -136,6 +136,13 @@
     background-image:    url("https://nightbloo.github.io/plug/custom-badges/apurpleonix.jpg");
 }
 
+/* Ragnax */
+#user-rollover.id-26639341 .badge-box > i.bdg,
+.id-26639341 > .badge-box > i.bdg
+{
+    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ragnax.png");
+}
+
 /* Rufee */
 #user-rollover.id-26601230 .badge-box > i.bdg,
 .id-26601230 > .badge-box > i.bdg
