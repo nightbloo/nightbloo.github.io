@@ -10,13 +10,6 @@ div.message > div.msg > div.from > span.un
     horizontal-align: left;
 }
 
-/* Domadness */
-
-.id-6385488 > .msg > .from > i.icon-chat-subscriber
-{
-    background: url("https://nightbloo.github.io/plug/icons/dom.png") no-repeat !important;
-}
-
 /* Grab, woot, meh buttons */
 #woot i.icon
 {
