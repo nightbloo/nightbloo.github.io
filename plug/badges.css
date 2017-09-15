@@ -1,179 +1,154 @@
 /* Custom Badges */
 
 /* General */
-#user-rollover .info .badge-box, 
-#chat-messages .badge-box
-{
-	background:          none !important;
-	background-size:     cover !important;
-	background-repeat:   no-repeat !important;
-	background-position: center center !important;
+#user-rollover .info .badge-box,
+#chat-messages .badge-box {
+    background: none !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
 }
 
 /* Ash */
-#user-rollover.id-27010676 .badge-box > i.bdg,
-.id-27010676 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ash.jpg");
+#user-rollover.id-27010676 .badge-box i.bdg,
+.id-27010676 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/ash.jpg");
 }
 
 /* BurgerIsGooo */
-#user-rollover.id-26609840 .badge-box > i.bdg,
-.id-26609840 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/burgerisgooo.gif");
+#user-rollover.id-26609840 .badge-box i.bdg,
+.id-26609840 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/burgerisgooo.gif");
 }
 
 /* Ene */
-#user-rollover.id-26698397 .badge-box > i.bdg,
-.id-26698397 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ene.png");
+#user-rollover.id-26698397 .badge-box i.bdg,
+.id-26698397 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/ene.png");
 }
 
 /* iHook */
-#user-rollover.id-26603056 .badge-box > i.bdg,
-.id-26603056 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ihook.gif");
+#user-rollover.id-26603056 .badge-box i.bdg,
+.id-26603056 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/ihook.gif");
 }
 
 /* Imanslix */
-#user-rollover.id-5220843 .badge-box > i.bdg,
-.id-5220843 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/imanolix.png");
+#user-rollover.id-5220843 .badge-box i.bdg,
+.id-5220843 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/imanolix.png");
 }
 
 /* Jexi */
-#user-rollover.id-4110949 .badge-box > i.bdg,
-.id-4110949 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/jexi.gif");
+#user-rollover.id-4110949 .badge-box i.bdg,
+.id-4110949 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/jexi.gif");
 }
 
 /* Kaspae */
-#user-rollover.id-26613571 .badge-box > i.bdg,
-.id-26613571 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/kaspae.gif");
+#user-rollover.id-26613571 .badge-box i.bdg,
+.id-26613571 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/kaspae.gif");
 }
 
 /* killer0wave */
-#user-rollover.id-27677457 .badge-box > i.bdg,
-.id-27677457 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/killer0wave.gif");
+#user-rollover.id-27677457 .badge-box i.bdg,
+.id-27677457 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/killer0wave.gif");
 }
 
 /* Laquett */
-#user-rollover.id-4093788 .badge-box > i.bdg,
-.id-4093788 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/laquett.png");
+#user-rollover.id-4093788 .badge-box i.bdg,
+.id-4093788 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/laquett.png");
 }
 
 /* Leaf */
-#user-rollover.id-4178820 .badge-box > i.bdg,
-.id-4178820 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
+#user-rollover.id-4178820 .badge-box i.bdg,
+.id-4178820 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
 }
 
 /* Mrcl- */
-#user-rollover.id-13585808 .badge-box > i.bdg,
-.id-13585808 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/mrcl.gif");
+#user-rollover.id-13585808 .badge-box i.bdg,
+.id-13585808 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/mrcl.gif");
 }
 
 /* NB3 */
-#user-rollover.id-6363341 .badge-box > i.bdg,
-.id-6363341 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/nb3.png");
+#user-rollover.id-6363341 .badge-box i.bdg,
+.id-6363341 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/nb3.png");
 }
 
 /* N U T */
-#user-rollover.id-4111014 .badge-box > i.bdg,
-.id-4111014 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/nut.gif");
+#user-rollover.id-4111014 .badge-box i.bdg,
+.id-4111014 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/nut.gif");
 }
 
 /* oaers */
-#user-rollover.id-11508127 .badge-box > i.bdg,
-.id-11508127 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/oaers.gif");
+#user-rollover.id-11508127 .badge-box i.bdg,
+.id-11508127 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/oaers.gif");
 }
 
 /* Pie */
-#user-rollover.id-26073729 .badge-box > i.bdg,
-.id-26073729 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/pie.jpg");
+#user-rollover.id-26073729 .badge-box i.bdg,
+.id-26073729 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/pie.jpg");
 }
 
 /* PotatoForTheWin */
-#user-rollover.id-5872022 .badge-box > i.bdg,
-.id-5872022 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/potatoforthewin.gif");
+#user-rollover.id-5872022 .badge-box i.bdg,
+.id-5872022 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/potatoforthewin.gif");
 }
 
 /* PurpleOnix */
-#user-rollover.id-26600442 .badge-box > i.bdg,
-.id-26600442 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/apurpleonix.jpg");
+#user-rollover.id-26600442 .badge-box i.bdg,
+.id-26600442 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/apurpleonix.jpg");
 }
 
 /* Ragnax */
-#user-rollover.id-26639341 .badge-box > i.bdg,
-.id-26639341 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/ragnax.png");
+#user-rollover.id-26639341 .badge-box i.bdg,
+.id-26639341 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/ragnax.png");
 }
 
 /* Rufee */
-#user-rollover.id-26601230 .badge-box > i.bdg,
-.id-26601230 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/rufee.gif");
+#user-rollover.id-26601230 .badge-box i.bdg,
+.id-26601230 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/rufee.gif");
 }
 
 /* S4nari */
-#user-rollover.id-3828485 .badge-box > i.bdg,
-.id-3828485 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/s4nari.png");
+#user-rollover.id-3828485 .badge-box i.bdg,
+.id-3828485 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/s4nari.png");
 }
 
 /* Soriosh */
-#user-rollover.id-26583171 .badge-box > i.bdg,
-.id-26583171 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/soriosh.jpg");
+#user-rollover.id-26583171 .badge-box i.bdg,
+.id-26583171 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/soriosh.jpg");
 }
 
 /* Teressaaaaa */
-#user-rollover.id-26622198 .badge-box > i.bdg,
-.id-26622198 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/teressaaaaa.gif");
+#user-rollover.id-26622198 .badge-box i.bdg,
+.id-26622198 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/teressaaaaa.gif");
 }
 
 /* WindRose3 */
-#user-rollover.id-26593919 .badge-box > i.bdg,
-.id-26593919 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/windrose3.jpg");
+#user-rollover.id-26593919 .badge-box i.bdg,
+.id-26593919 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/windrose3.jpg");
 }
 
 /* Zizter/Sister */
-#user-rollover.id-26608465 .badge-box > i.bdg,
-.id-26608465 > .badge-box > i.bdg
-{
-    background-image:    url("https://nightbloo.github.io/plug/custom-badges/Zizter.gif");
+#user-rollover.id-26608465 .badge-box i.bdg,
+.id-26608465 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/Zizter.gif");
 }
