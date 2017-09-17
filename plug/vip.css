@@ -1,109 +1,89 @@
 /* VIP text in rollover */
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role span, 
+#user-rollover.id-26613571 .info .role span,
 
 /* killer0wave */
-#user-rollover.id-27677457 > .info > .role span, 
-
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role span, 
+#user-rollover.id-27677457 .info .role span,
 
 /* Pie */
-#user-rollover.id-26073729 > .info > .role span,
+#user-rollover.id-26073729 .info .role span,
 
 /* soup erman */
-#user-rollover.id-5104072 > .info > .role span
-{
+#user-rollover.id-5104072 .info .role span {
     visibility: hidden;
 }
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role span:after, 
+#user-rollover.id-26613571 .info .role span:after,
 
 /* killer0wave */
-#user-rollover.id-27677457 > .info > .role span:after, 
-
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role span:after, 
+#user-rollover.id-27677457 .info .role span:after,
 
 /* Pie */
-#user-rollover.id-26073729 > .info > .role span:after,
+#user-rollover.id-26073729 .info .role span:after,
 
 /* soup erman */
-#user-rollover.id-5104072 > .info > .role span:after
-{
+#user-rollover.id-5104072 .info .role span:after {
     visibility: visible;
-    content:'VIP';
+    content: 'VIP';
 }
 
-/* Burkes */ 
-#user-rollover.id-3703511 > .info > .role span:after
-{
-    content:' / VIP';
+/* Burkes */
+#user-rollover.id-3703511 .info .role span:after {
+    content: ' / VIP';
 }
 
 /* VIP Icon */
 
 /* Burkes */
-.id-3703511 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="3703511"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-3703511 .icon-chat-dj, 
+.id-3703511 .msg .from i.icon-chat-dj,
+#waitlist .list .user[data-uid="3703511"] .meta.is-staff .name .icon-chat-dj,
+#user-rollover.id-3703511 .info .role i.icon-chat-dj,
+#user-lists .list.room .user.id-3703511 .icon-chat-dj,
 
 /* Kaspae */
-.id-26613571 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-26613571 .icon-chat-dj, 
+.id-26613571 .msg .from i.icon-chat-dj,
+#waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj,
+#user-rollover.id-26613571 .info .role i.icon-chat-dj,
+#user-lists .list.room .user.id-26613571 .icon-chat-dj,
 
 /* killer0wave */
-.id-27677457 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="27677457"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-27677457 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-27677457 .icon-chat-dj, 
-
-/* Oaers */
-.id-11508127 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-11508127 .icon-chat-dj, 
+.id-27677457 .msg .from i.icon-chat-dj,
+#waitlist .list .user[data-uid="27677457"] .meta.is-staff .name .icon-chat-dj,
+#user-rollover.id-27677457 .info .role i.icon-chat-dj,
+#user-lists .list.room .user.id-27677457 .icon-chat-dj,
 
 /* Pie */
-.id-26073729 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="26073729"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-26073729 > .info > .role > i.icon-chat-dj, 
+.id-26073729 .msg .from i.icon-chat-dj,
+#waitlist .list .user[data-uid="26073729"] .meta.is-staff .name .icon-chat-dj,
+#user-rollover.id-26073729 .info .role i.icon-chat-dj,
 #user-lists .list.room .user.id-26073729 .icon-chat-dj,
 
 /* soup erman */
-.id-5104072 > .msg > .from > i.icon-chat-dj,
-#waitlist .list .user[data-uid="5104072"] .meta.is-staff .name .icon-chat-dj, 
-#user-rollover.id-5104072 > .info > .role > i.icon-chat-dj, 
-#user-lists .list.room .user.id-5104072 .icon-chat-dj
-{
-	background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
+.id-5104072 .msg .from i.icon-chat-dj,
+#waitlist .list .user[data-uid="5104072"] .meta.is-staff .name .icon-chat-dj,
+#user-rollover.id-5104072 .info .role i.icon-chat-dj,
+#user-lists .list.room .user.id-5104072 .icon-chat-dj {
+    background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
 
 /* VIP Icon User Rollover Fix */
 
 /* Burkes */
-#user-rollover.id-3703511 > .info > .role > i.icon-chat-dj, 
+#user-rollover.id-3703511 .info .role i.icon-chat-dj,
 
 /* Kaspae */
-#user-rollover.id-26613571 > .info > .role > i.icon-chat-dj, 
+#user-rollover.id-26613571 .info .role i.icon-chat-dj,
 
 /* killer0wave */
-#user-rollover.id-27677457 > .info > .role > i.icon-chat-dj,
-
-/* Oaers */
-#user-rollover.id-11508127 > .info > .role > i.icon-chat-dj, 
+#user-rollover.id-27677457 .info .role i.icon-chat-dj,
 
 /* Pie */
-#user-rollover.id-26073729 > .info > .role > i.icon-chat-dj,
+#user-rollover.id-26073729 .info .role i.icon-chat-dj,
 
 /* soup erman */
-#user-rollover.id-5104072 > .info > .role > i.icon-chat-dj
-{
+#user-rollover.id-5104072 .info .role i.icon-chat-dj {
     margin-left: 60px;
     position: absolute;
 }
@@ -111,127 +91,105 @@
 /* VIP Color */
 
 /* Burkes */
-.id-3703511 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="3703511"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-3703511 > .info > .role span, 
-#user-rollover.id-3703511 > .meta > .username, 
-#user-lists .list.room .user.id-3703511 .name, 
+.id-3703511 .msg .from.dj .un,
+#waitlist .list .user[data-uid="3703511"] .meta.is-staff .name .icon-chat-dj + span,
+#user-rollover.id-3703511 .info .role span,
+#user-rollover.id-3703511 .meta .username,
+#user-lists .list.room .user.id-3703511 .name,
 
 /* Kaspae */
-.id-26613571 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-26613571 > .info > .role span, 
-#user-rollover.id-26613571 > .meta > .username, 
-#user-lists .list.room .user.id-26613571 .name, 
+.id-26613571 .msg .from.dj .un,
+#waitlist .list .user[data-uid="26613571"] .meta.is-staff .name .icon-chat-dj + span,
+#user-rollover.id-26613571 .info .role span,
+#user-rollover.id-26613571 .meta .username,
+#user-lists .list.room .user.id-26613571 .name,
 
 /* killer0wave */
-.id-27677457 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="27677457"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-27677457 > .info > .role span, 
-#user-rollover.id-27677457 > .meta > .username, 
-#user-lists .list.room .user.id-27677457 .name, 
-
-/* Oaers */
-.id-11508127 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="11508127"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-11508127 > .info > .role span, 
-#user-rollover.id-11508127 > .meta > .username, 
-#user-lists .list.room .user.id-11508127 .name, 
+.id-27677457 .msg .from.dj .un,
+#waitlist .list .user[data-uid="27677457"] .meta.is-staff .name .icon-chat-dj + span,
+#user-rollover.id-27677457 .info .role span,
+#user-rollover.id-27677457 .meta .username,
+#user-lists .list.room .user.id-27677457 .name,
 
 /* Pie */
-.id-26073729 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="26073729"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-26073729 > .info > .role span, 
-#user-rollover.id-26073729 > .meta > .username, 
+.id-26073729 .msg .from.dj .un,
+#waitlist .list .user[data-uid="26073729"] .meta.is-staff .name .icon-chat-dj + span,
+#user-rollover.id-26073729 .info .role span,
+#user-rollover.id-26073729 .meta .username,
 #user-lists .list.room .user.id-26073729 .name,
 
 /* soup erman */
-.id-5104072 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="5104072"] .meta.is-staff .name .icon-chat-dj + span, 
-#user-rollover.id-5104072 > .info > .role span, 
-#user-rollover.id-5104072 > .meta > .username, 
-#user-lists .list.room .user.id-5104072 .name
-{
-	color: #2cc4d1 !important;
+.id-5104072 .msg .from.dj .un,
+#waitlist .list .user[data-uid="5104072"] .meta.is-staff .name .icon-chat-dj + span,
+#user-rollover.id-5104072 .info .role span,
+#user-rollover.id-5104072 .meta .username,
+#user-lists .list.room .user.id-5104072 .name {
+    color: #2cc4d1 !important;
 }
 
 /* VIP Border */
 
 /* Burkes */
-#chat .cm.message.id-3703511, 
-#chat .cm.emote.id-3703511,  
+#chat .cm.message.id-3703511,
+#chat .cm.emote.id-3703511,
 
 /* Kaspae */
-#chat .cm.message.id-26613571, 
-#chat .cm.emote.id-26613571, 
+#chat .cm.message.id-26613571,
+#chat .cm.emote.id-26613571,
 
 /* killer0wave */
-#chat .cm.message.id-27677457, 
-#chat .cm.emote.id-27677457, 
-
-/* Oaers */
-#chat .cm.message.id-11508127, 
-#chat .cm.emote.id-11508127, 
+#chat .cm.message.id-27677457,
+#chat .cm.emote.id-27677457,
 
 /* Pie */
-#chat .cm.message.id-26073729, 
+#chat .cm.message.id-26073729,
 #chat .cm.emote.id-26073729,
 
 /* soup erman */
-#chat .cm.message.id-5104072, 
-#chat .cm.emote.id-5104072
-{
-    border-left:  #2cc4d1 2px dotted !important;
+#chat .cm.message.id-5104072,
+#chat .cm.emote.id-5104072 {
+    border-left: #2cc4d1 2px dotted !important;
     border-right: #2cc4d1 2px dotted !important;
 }
 
 /* Burkes */
-#chat .cm.message.id-3703511:hover, 
-#chat .cm.emote.id-3703511:hover,  
+#chat .cm.message.id-3703511:hover,
+#chat .cm.emote.id-3703511:hover,
 
 /* Kaspae */
-#chat .cm.message.id-26613571:hover, 
-#chat .cm.emote.id-26613571:hover, 
+#chat .cm.message.id-26613571:hover,
+#chat .cm.emote.id-26613571:hover,
 
 /* killer0wave */
-#chat .cm.message.id-27677457:hover, 
-#chat .cm.emote.id-27677457:hover, 
-
-/* Oaers */
-#chat .cm.message.id-11508127:hover, 
-#chat .cm.emote.id-11508127:hover, 
+#chat .cm.message.id-27677457:hover,
+#chat .cm.emote.id-27677457:hover,
 
 /* Pie */
-#chat .cm.message.id-26073729:hover, 
+#chat .cm.message.id-26073729:hover,
 #chat .cm.emote.id-26073729:hover,
 
 /* soup erman */
-#chat .cm.message.id-5104072:hover, 
-#chat .cm.emote.id-5104072:hover
-{
-    border-left-style:  solid !important;
+#chat .cm.message.id-5104072:hover,
+#chat .cm.emote.id-5104072:hover {
+    border-left-style: solid !important;
     border-right-style: solid !important;
 }
 
 /* VIP Inline */
 
 /* Burkes */
-.emote.id-3703511 .text, 
+.emote.id-3703511 .text,
 
 /* Kaspae */
-.emote.id-26613571 .text, 
+.emote.id-26613571 .text,
 
 /* killer0wave */
-.emote.id-27677457 .text, 
-
-/* Oaers */
-.emote.id-11508127 .text, 
+.emote.id-27677457 .text,
 
 /* Pie */
 .emote.id-26073729 .text,
 
 /* soup erman */
-.emote.id-5104072 .text
-{
-    color:  #2cc4d1 !important;
+.emote.id-5104072 .text {
+    color: #2cc4d1 !important;
 }
