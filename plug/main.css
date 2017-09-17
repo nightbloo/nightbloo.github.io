@@ -182,9 +182,8 @@ div.message > div.msg > div.from > span.un
 }
 
 /* Chat */
-#chat .mention.is-staff,
 #chat .mention .msg {
-    background: linear-gradient(135deg,#052271 0,#13438a94 13%,#000000 100%);
+	background: linear-gradient(135deg,rgb(5, 34, 113) 0%,rgba(19, 67, 138, 0.58) 13%,rgb(0, 0, 0) 100%) !important;
 }
 
 /* Inline */
