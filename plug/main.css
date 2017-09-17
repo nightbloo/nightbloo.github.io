@@ -182,6 +182,9 @@ div.message > div.msg > div.from > span.un
 }
 
 /* Chat */
+#chat .mention .msg {
+	background: linear-gradient(135deg,rgb(5, 34, 113) 0%,rgba(19, 67, 138, 0.58) 13%,rgb(0, 0, 0) 100%) !important;
+}
 
 /* Inline */
 
