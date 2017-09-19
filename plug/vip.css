@@ -7,10 +7,7 @@
 #user-rollover.id-27677457 .info .role span,
 
 /* Pie */
-#user-rollover.id-26073729 .info .role span,
-
-/* soup erman */
-#user-rollover.id-5104072 .info .role span {
+#user-rollover.id-26073729 .info .role span {
     visibility: hidden;
 }
 
@@ -21,10 +18,7 @@
 #user-rollover.id-27677457 .info .role span:after,
 
 /* Pie */
-#user-rollover.id-26073729 .info .role span:after,
-
-/* soup erman */
-#user-rollover.id-5104072 .info .role span:after {
+#user-rollover.id-26073729 .info .role span:after {
     visibility: visible;
     content: 'VIP';
 }
@@ -58,13 +52,7 @@
 .id-26073729 .msg .from i.icon-chat-dj,
 #waitlist .list .user[data-uid="26073729"] .meta.is-staff .name .icon-chat-dj,
 #user-rollover.id-26073729 .info .role i.icon-chat-dj,
-#user-lists .list.room .user.id-26073729 .icon-chat-dj,
-
-/* soup erman */
-.id-5104072 .msg .from i.icon-chat-dj,
-#waitlist .list .user[data-uid="5104072"] .meta.is-staff .name .icon-chat-dj,
-#user-rollover.id-5104072 .info .role i.icon-chat-dj,
-#user-lists .list.room .user.id-5104072 .icon-chat-dj {
+#user-lists .list.room .user.id-26073729 .icon-chat-dj {
     background: url("https://nightbloo.github.io/plug/icons/vip.png") no-repeat !important;
 }
 
@@ -80,10 +68,7 @@
 #user-rollover.id-27677457 .info .role i.icon-chat-dj,
 
 /* Pie */
-#user-rollover.id-26073729 .info .role i.icon-chat-dj,
-
-/* soup erman */
-#user-rollover.id-5104072 .info .role i.icon-chat-dj {
+#user-rollover.id-26073729 .info .role i.icon-chat-dj {
     margin-left: 60px;
     position: absolute;
 }
@@ -116,14 +101,7 @@
 #waitlist .list .user[data-uid="26073729"] .meta.is-staff .name .icon-chat-dj + span,
 #user-rollover.id-26073729 .info .role span,
 #user-rollover.id-26073729 .meta .username,
-#user-lists .list.room .user.id-26073729 .name,
-
-/* soup erman */
-.id-5104072 .msg .from.dj .un,
-#waitlist .list .user[data-uid="5104072"] .meta.is-staff .name .icon-chat-dj + span,
-#user-rollover.id-5104072 .info .role span,
-#user-rollover.id-5104072 .meta .username,
-#user-lists .list.room .user.id-5104072 .name {
+#user-lists .list.room .user.id-26073729 .name {
     color: #2cc4d1 !important;
 }
 
@@ -143,11 +121,7 @@
 
 /* Pie */
 #chat .cm.message.id-26073729,
-#chat .cm.emote.id-26073729,
-
-/* soup erman */
-#chat .cm.message.id-5104072,
-#chat .cm.emote.id-5104072 {
+#chat .cm.emote.id-26073729 {
     border-left: #2cc4d1 2px dotted !important;
     border-right: #2cc4d1 2px dotted !important;
 }
@@ -166,11 +140,7 @@
 
 /* Pie */
 #chat .cm.message.id-26073729:hover,
-#chat .cm.emote.id-26073729:hover,
-
-/* soup erman */
-#chat .cm.message.id-5104072:hover,
-#chat .cm.emote.id-5104072:hover {
+#chat .cm.emote.id-26073729:hover {
     border-left-style: solid !important;
     border-right-style: solid !important;
 }
@@ -187,9 +157,6 @@
 .emote.id-27677457 .text,
 
 /* Pie */
-.emote.id-26073729 .text,
-
-/* soup erman */
-.emote.id-5104072 .text {
+.emote.id-26073729 .text {
     color: #2cc4d1 !important;
 }
