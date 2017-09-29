@@ -66,6 +66,18 @@ div.message > div.msg > div.from > span.un {
     background: linear-gradient(135deg,rgb(5, 34, 113) 0%,rgba(19, 67, 138, 0.58) 13%,rgb(0, 0, 0) 100%) !important;
 }
 
+#waitlist .is-promoter .name,
+#user-lists .is-promoter .name,
+#chat .from.promoter .un {
+    color: #90b7af;
+}
+
+#waitlist .is-plot .name,
+#user-lists .is-plot .name,
+#chat .from.plot .un {
+    color: #deb38d;
+}
+
 /* Fade */
 #chat .cm {
     -webkit-animation: fadein 1s;
@@ -123,6 +135,14 @@ div.message > div.msg > div.from > span.un {
 
 .emote.role-host .text {
     color: #F2693E;
+}
+
+.emote.role-promoter .text {
+    color: #a5a5a5;
+}
+
+.emote.role-plot .text {
+    color: #a5a5a5;
 }
 
 .emote.role-ambassador .text {
