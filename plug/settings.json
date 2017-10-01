@@ -1,7 +1,7 @@
 {
 	"room": "NB3's Community",
 	"author": "Laquett",
-	"icon": null,
+	"icon": "https://nightbloo.github.io/plug/icons/room.png",
 	"css": "https://nightbloo.github.io/plug/main.css",
 	"rules": {
 		"allowAutorespond": false,
