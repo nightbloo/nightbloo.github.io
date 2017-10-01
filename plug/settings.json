@@ -1,7 +1,7 @@
 {
 	"room": "NB3's Community",
 	"author": "Laquett",
-	"icon": null,
+	"icon": "https://nightbloo.github.io/plug/icons/room.png",
 	"css": "https://nightbloo.github.io/plug/main.css",
 	"rules": {
 		"allowAutorespond": false,
@@ -26,14 +26,14 @@
 		"user": null
 	},
 	"images": {
-		"background": "https://nightbloo.github.io/plug/background/nb3DJ6.png",
+		"background": "https://nightbloo.github.io/plug/background/nb3DJ7.png",
 		"playback": "https://nightbloo.github.io/plug/background/nb3DJvideo.png",
 		"admin": null,
 		"ambassador": null,
-		"host": "https://laquett.github.io/nightbloo.github.io/plug/icons/host.png",
-		"cohost": "https://laquett.github.io/nightbloo.github.io/plug/icons/co-host.png",
-		"manager": "https://laquett.github.io/nightbloo.github.io/plug/icons/manager.png",
-		"bouncer": "https://laquett.github.io/nightbloo.github.io/plug/icons/bouncer.png",
+		"host": "https://nightbloo.github.io/plug/icons/host.png",
+		"cohost": "https://nightbloo.github.io/plug/icons/co-host.png",
+		"manager": "https://nightbloo.github.io/plug/icons/manager.png",
+		"bouncer": "https://nightbloo.github.io/plug/icons/bouncer.png",
 		"rdj": "https://nightbloo.github.io/plug/icons/rdj.png",
 		"subscriber": null,
 		"other": null
