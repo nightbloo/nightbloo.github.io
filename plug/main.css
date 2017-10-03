@@ -150,14 +150,6 @@ div.message > div.msg > div.from > span.un {
     color: #F2693E;
 }
 
-.emote.role-promoter .text {
-    color: #a5a5a5;
-}
-
-.emote.role-plot .text {
-    color: #a5a5a5;
-}
-
 .emote.role-ambassador .text {
     color: #89BE6C;
 }
