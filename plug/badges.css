@@ -93,10 +93,22 @@
     background-image: url("https://nightbloo.github.io/plug/custom-badges/apurpleonix.jpg");
 }
 
+/* Puukjeens */
+#user-rollover.id-4734845 .badge-box i.bdg,
+.id-4734845 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/puukjeens.gif");
+}
+
 /* Ragnax */
 #user-rollover.id-26639341 .badge-box i.bdg,
 .id-26639341 .badge-box i.bdg {
     background-image: url("https://nightbloo.github.io/plug/custom-badges/ragnax.png");
+}
+
+/* Teddy */
+#user-rollover.id-3788262 .badge-box i.bdg,
+.id-3788262 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/Teddy.gif");
 }
 
 /* S4nari */
