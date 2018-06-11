@@ -288,6 +288,66 @@ div.message > div.msg > div.from > span.un {
     animation: rainbow 10s infinite;
 }
 
+/* -----------------------------------------Bot----------------------------------------- */
+#chat [data-cid^="26698397-"] {
+    box-shadow: 0 0 0 1px #19222d;
+}
+
+#user-rollover.id-26698397 .username {
+    animation: shadowspin linear 8s infinite;
+}
+
+.id-26698397 .msg .from.manager .un,
+#chat [data-cid^="26698397-"] span.un.clickable,
+#waitlist .list .user[data-uid="26698397"] .meta.is-staff .name .icon-chat-manager + span,
+#user-rollover.id-26698397 .info .role span,
+#user-rollover.id-26698397 .meta .username,
+#user-rollover.id-26698397 .meta.subscriber .thumb,
+#user-lists .list.room .user.id-26698397 .name {
+    color: #5a9ee6 !important;
+}
+
+#user-rollover.id-26698397 .actions,
+#user-rollover.id-26698397 .meta.subscriber .status,
+#user-rollover.id-26698397 .meta .joined,
+#user-rollover.id-26698397 .meta.subscriber .showID,
+#chat [data-cid^="26698397-"] .from.has-sub.staff .icon.icon-chat-subscriber,
+#chat [data-cid^="26698397-"] .rcs-user-info {
+    display: none !important;
+}
+
+.id-26698397 > .msg > .from > i.icon-chat-manager,
+#waitlist .list .user[data-uid="26698397"] .meta.is-staff .name .icon-chat-manager,
+#user-rollover.id-26698397 > .info > .role > i.icon-chat-manager,
+#user-lists .list.room .user.id-26698397 .icon-chat-manager {
+    background: url("https://nightbloo.github.io/plug/icons/bot.png") no-repeat !important;
+}
+
+#user-rollover.id-26698397 > .info > .role span {
+    visibility: hidden;
+}
+
+#user-rollover.id-26698397 .info .role span:after {
+    visibility: visible;
+    content: 'Bot';
+}
+
+#user-rollover.id-26698397 .info .role i.icon-chat-manager {
+    margin-left: 42px;
+    position: absolute;
+}
+
+#user-rollover.id-26698397 .info .level .value {
+    visibility: hidden;
+    margin-left: -15px;
+    position: absolute;
+}
+
+#user-rollover.id-26698397 .info .level .value:after {
+    visibility: visible;
+    content: '∞';
+}
+
 /* -------------------------------------Animations------------------------------------- */
 /* Chat Fade */
 @keyframes fadein
@@ -333,4 +393,33 @@ div.message > div.msg > div.from > span.un {
     80% { color: #0000ff; }
     90% { color: #8000ff; }
     100% { color: #ff0080; }
+}
+
+/* Bot */
+@keyframes shadowspin {
+    0% { text-shadow:
+            2px -2px 0 hsla(219, 96%, 47%, 0.74),
+            1px -1px 0 hsla(219, 96%, 47%, 0.74),
+            -2px 2px 0 hsla(207, 96%, 25%, 0.74),
+            -1px 1px 0 hsla(207, 96%, 25%, 0.74); }
+    25% { text-shadow:
+            -2px -2px 0 hsla(207, 96%, 25%, 0.74),
+            -1px -1px 0 hsla(207, 96%, 25%, 0.74),
+            2px 2px 0 hsla(219, 96%, 47%, 0.74),
+            1px 1px 0 hsla(219, 96%, 47%, 0.74); }
+    50% { text-shadow:
+            -2px 2px 0 hsla(207, 96%, 25%, 0.74),
+            -1px 1px 0 hsla(207, 96%, 25%, 0.74),
+            2px -2px 0 hsla(219, 96%, 47%, 0.74),
+            1px -1px 0 hsla(219, 96%, 47%, 0.74); }
+    75% { text-shadow:
+            2px 2px 0 hsla(219, 96%, 47%, 0.74),
+            1px 1px 0 hsla(219, 96%, 47%, 0.74),
+            -2px -2px 0 hsla(207, 96%, 25%, 0.74),
+            -1px -1px 0 hsla(207, 96%, 25%, 0.74); }
+    100% { text-shadow:
+            2px -2px 0 hsla(219, 96%, 47%, 0.74),
+            1px -1px 0 hsla(219, 96%, 47%, 0.74),
+            -2px 2px 0 hsla(207, 96%, 25%, 0.74),
+            -1px 1px 0 hsla(207, 96%, 25%, 0.74);}
 }
